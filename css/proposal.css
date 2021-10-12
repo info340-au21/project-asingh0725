@@ -1,18 +1,23 @@
 body {
     font-family: 'Encode Sans', sans-serif;
+    background-color: azure;
 }
 
 h1 {
     font-size: 2rem;
+    text-align: center;
 }
 
+h2:hover, li:hover{
+    color: red;
+    cursor: pointer;
+}
 h2 {
     font-size: 1rem;
     font-weight: bolder;
 }
 
 header {
-    background-color: azure;
     padding: 1em;
 }
 
