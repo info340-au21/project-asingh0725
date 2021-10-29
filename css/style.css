@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    padding: 1rem;
+    text-align: center;
+    
+}
+
+.websiteName {
+    font-size: 3rem;
+}
+
+main {
+    margin-top: 3rem;
+}
+
+.col {
+    display: flex;
+}
+
+.card {
+    padding: 1rem;
+
+}
