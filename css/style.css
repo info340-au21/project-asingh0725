@@ -2,22 +2,24 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: white;
+}
+
 header {
     padding: 1rem;
     text-align: center;
-    
+    background-color: #b8c0c8;
+    z-index: 1;
+}
+
+.main {
+    margin-top: 10rem;
 }
 
 .websiteName {
-    font-size: 3rem;
-}
-
-main {
-    margin-top: 3rem;
-}
-
-.container {
-    margin: auto;
+    font-size: 2rem;
+    color: #101118;
 }
 
 .row {
@@ -35,6 +37,18 @@ main {
     padding: 1rem;
 }
 
+.card:hover {
+    background-color: #c7c2bb;
+}
+
+.card-title {
+    color: #241f0f;
+}
+
+.card-text {
+    color: #6e7478;
+}
+
 @media (min-width: 598px) and (max-width: 767px) {
     .row {
         flex-direction: column;
@@ -44,18 +58,18 @@ main {
 
 @media (min-width: 768px) and (max-width: 991px) {
     .col {
-        width: 45%;
+        flex-direction: column;
     }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .col {
-        width: 45%;
+        width: 40%;
     }
 }
 
 @media (min-width: 1200px) {
     .col {
-        width: 45%;
+        width: 40%;
     }
 }
