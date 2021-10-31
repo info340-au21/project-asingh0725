@@ -16,11 +16,46 @@ main {
     margin-top: 3rem;
 }
 
+.container {
+    margin: auto;
+}
+
+.row {
+    margin: auto;
+    justify-content: center;
+}
+
 .col {
     display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .card {
     padding: 1rem;
+}
 
+@media (min-width: 598px) and (max-width: 767px) {
+    .row {
+        flex-direction: column;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col {
+        width: 45%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .col {
+        width: 45%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col {
+        width: 45%;
+    }
 }
