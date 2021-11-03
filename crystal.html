@@ -102,23 +102,32 @@
                         </div>
                     </div>
                 </div>
-                <div>
-                    <label for="review_name" class="pt-4 pr-1">Name:</label>
-                    <input type="text" style="max-width: 500px;" id="review_name" name="name"></textarea>
-                </div>
-                <div>
-                    <label for="review_title" class="pt-2 pr-3">Title:</label>
-                    <input type="text" style="max-width: 500px;" id="review_title" name="title"></textarea>
-                </div>
-                <div>
-                    <label for="review_field" class="pt-2">Review:</label>
-                    <textarea class="form-control" style="max-width: 650px;" id="review_field" name="review"></textarea>
-                </div>
-                <div>
-                    <button class="btn btn-dark mt-2 mb-3">Post Review</button>
-                </div>
+                <form>
+                    <div>
+                        <label for="name" class="pt-4 pr-1">Name:</label>
+                        <input type="text" id="name" name="name"></textarea>
+                    </div>
+                    <div>
+                        <label for="title" class="pt-2 pr-3">Title:</label>
+                        <input type="text" id="title" name="title"></textarea>
+                    </div>
+                    <div>
+                        <label for="review_field" class="pt-2">Review:</label>
+                        <textarea class="form-control" style="max-width: 650px;" id="review_field" name="review"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" class="btn btn-dark mt-2 mb-3" value="Post Review"></button>
+                    </div>
+                </form>
+                
             </div>
         </div>
     </main>
+    <footer>
+        <p>
+            <span>&copy</span> 2021 MountainStop at the University of Washington | Seattle, WA
+        </p>
+    </footer>
 </body>
+
 </html>
