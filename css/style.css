@@ -2,34 +2,52 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: white;
+html, body {
+    background-color:#ebecf0;
+    font-family: 'Encode Sans', sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
 
 header {
-    padding: 1rem;
     text-align: center;
-    background-color: #b8c0c8;
-    z-index: 1;
+    width: 100%;
+    padding: 1rem;
+    background-color:#aeafb9;
 }
 
-.main {
-    margin-top: 10rem;
+header nav {
+    display: inline;
+}
+
+header nav img {
+    height: 40px;
+    width: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .websiteName {
-    font-size: 2rem;
+    font-size: 2.5rem;
+    font-weight: bolder;
     color: #101118;
 }
 
-.row {
+.row:first-of-type {
     justify-content: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .col {
     display: flex;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    width: auto;
 }
 
 .card {
@@ -38,43 +56,61 @@ header {
 }
 
 .card img {
-    height: 50%;
     border-radius: 10px;
 }
 
 .card:hover {
-    background-color: #c7c2bb;
+    background-color:#cdd1e2;
 }
 
 .card-title {
-    color: #241f0f;
+    color: #454549;
 }
 
 .card-text {
-    color: #6e7478;
+    color: #656a80;
+}
+
+footer {
+    margin-top: 1rem;
+    padding: .5rem;
+    background-color:#aeafb9;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 1rem;
 }
 
 @media (min-width: 598px) and (max-width: 767px) {
-    .row {
+    .row:first-of-type {
         flex-direction: column;
     }
-
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px)  {
+    .row:first-of-type {
+        flex-direction: row;
+    }
     .col {
-        flex-direction: column;
+        width: 40%;
     }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1199px)  {
+    .row:first-of-type {
+        flex-direction: row;
+    }
     .col {
         width: 30%;
     }
 }
 
 @media (min-width: 1200px) {
+    .row:first-of-type {
+        flex-direction: row;
+    }
     .col {
-        width: 40%;
+        width: 30%;
     }
 }
