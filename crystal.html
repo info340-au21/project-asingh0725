@@ -1,8 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/favIcon.png" />
     <title>Crystal Mountain Resort</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -80,38 +82,40 @@
                 <h2>Reviews</h2>
                 <div class="card">
                     <div class="card-body">
-                        <div class="row">
-                            <div class="col-md-10">
-                                <p>
-                                    <strong class="float-left">My Name</strong>
-                                </p>
-                                
-                                <div class="clearfix"></div>
+                        <div class="row-10">
+                            <div class="col-10">
+                                <p><strong>My Name</strong></p>
                                 <p>Best Place</p>
-                                <div class="clearfix"></div>
-                                <div class="clearfix"></div>
-                                <p>Is easy to access</p>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat placeat maiores dicta, 
+                                    voluptatem culpa excepturi vitae in ad omnis illum explicabo, ducimus repellat enim soluta 
+                                    consequatur unde qui esse corrupti!
+                                </p>
                             </div>
-                            <div class="col-md-5">
-                                <p class="text-secondary text center">2 Months Ago</p>
+                            <div>
+                                <p class="text-secondary text center text-left">
+                                    <a class="btn text-white btn-danger">Like</a>
+                                    <a class="btn btn-outline-primary ml-2 mr-2">Reply</a>
+                                    2 Months Ago
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <label for="review_name" class="pt-3">Name:</label>
-                    <input type="text" class="form-control" style="max-width: 450px;" id="review_name" name="name"></textarea>
+                    <label for="review_name" class="pt-4 pr-1">Name:</label>
+                    <input type="text" style="max-width: 500px;" id="review_name" name="name"></textarea>
                 </div>
                 <div>
-                    <label for="review_title">Title:</label>
-                    <input type="text" class="form-control" style="max-width: 450px;" id="review_title" name="title"></textarea>
+                    <label for="review_title" class="pt-2 pr-3">Title:</label>
+                    <input type="text" style="max-width: 500px;" id="review_title" name="title"></textarea>
                 </div>
                 <div>
-                    <label for="review_field">Review:</label>
+                    <label for="review_field" class="pt-2">Review:</label>
                     <textarea class="form-control" style="max-width: 650px;" id="review_field" name="review"></textarea>
                 </div>
                 <div>
-                    <button class="btn btn-dark">Post Review</button>
+                    <button class="btn btn-dark mt-2 mb-3">Post Review</button>
                 </div>
             </div>
         </div>
