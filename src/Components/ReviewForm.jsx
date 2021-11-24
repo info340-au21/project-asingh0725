@@ -1,6 +1,6 @@
 import React from "react";
 
-export function ReviewForm() {
+export default function ReviewForm() {
     return (
         <form>
             <div>

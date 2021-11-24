@@ -4,6 +4,7 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
+import { Route, Link } from 'react-router-dom';
 
 import locations from '../data/locations.json'
 
@@ -20,7 +21,9 @@ export function CardLocations(props) {
                     <Card.Title>{location.name}</Card.Title>
                     <Card.Subtitle>{location.location}</Card.Subtitle>
                     <Card.Text>{location.description}</Card.Text>
-                    <Button className="mt-2 text-center" variant="outline-dark">Details</Button>
+                    <Link to="/Report">
+                        <Button className="mt-2 text-center" variant="outline-dark">Details</Button>
+                    </Link>
                 </Card.Body>
             </Card>
         </div>
