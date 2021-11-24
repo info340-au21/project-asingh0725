@@ -9,16 +9,17 @@ import locations from '../data/locations.json'
 
 
 export function CardLocations(props) {
-    const location = props.location;
+    const location = props.locations;
     return (
         <div>
             <Card border="light" className="locationCard d-flex mx-auto my-auto text-center" style={{ width: '22rem' }}>
                 <Card.Header variant="top">
-                    <Card.Img className="locationImg mt-2 mb-2" variant="top" src="https://picsum.photos/2000" />
+                    <Card.Img className="locationImg mt-2 mb-2" variant="top" src={location.img} alt={location.caption}/>
                 </Card.Header>
                 <Card.Body className="locationText justify-content-center">
                     <Card.Title>{location.name}</Card.Title>
-                    <Card.Subtitle>{location.seasons}</Card.Subtitle>
+                    <Card.Subtitle>{location.location}</Card.Subtitle>
+                    <Card.Text>{location.description}</Card.Text>
                     <Button className="mt-2 text-center" variant="outline-dark">Check Out Locations</Button>
                 </Card.Body>
             </Card>

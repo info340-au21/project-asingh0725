@@ -2,37 +2,37 @@
     {
         "name": "Skiing/Snowboarding",
         "seasons": "Autumn, Winter",
-        "img": "../../public/images/ski.jpeg",
+        "img": "../../public/images/activities/ski.jpeg",
         "description": "Skiing is a means of transport using skis to glide on snow.Variations of purpose include basic transport, a recreational activity, or a competitive winter sport. "
     },
     {
         "name": "Mountain Biking",
         "seasons": "Spring, Summer, Autumn",
-        "img": "../../public/images/bike.jpeg",
+        "img": "../../public/images/activities/bike.jpeg",
         "description": "Mountain biking is a sport of riding bicycles off-road, often over rough terrain, usually using specially designed mountain bikes"
     },
     {
         "name": "Hiking",
         "seasons": "Spring, Summer, Autumn, Winter",
-        "img": "../../public/images/hike.jpeg",
+        "img": "../../public/images/activities/hike.jpeg",
         "description": "Hiking means walking outdoors on a trail, or off trail, for recreational purposes. It specifically refers to difficult walking through dense forest, undergrowth, or bushes where forward progress requires pushing vegetation aside."
     },
     {
         "name": "Snowshoeing",
         "seasons": "Winter",
-        "img": "../../public/images/snowshoe.jpg",
+        "img": "../../public/images/activities/snowshoe.jpg",
         "description": "Snowshoeing is an excellent low-impact aerobic exercise. It lets you extend your hiking and running season and lets you enjoy solitude in areas that might be crowded in summer."
     },
     {
         "name": "Ziplining",
         "seasons": "Spring, Summer, Autumn, Winter",
-        "img": "../../public/images/zipline.jpg",
+        "img": "../../public/images/activities/zipline.jpg",
         "description": "Zip lining is a pure rush of adrenaline. The feeling of weightlessness as you quickly glide across the line is something that few experiences can match."
     },
     {
         "name": "Mountain Climbing",
         "seasons": "Spring, Summer, Autumn, Winter",
-        "img": "../../public/images/climbing.jpg",
+        "img": "../../public/images/activities/climbing.jpg",
         "description": "Mountaineering is the set of outdoor activities that involves ascending tall mountains. Mountaineering-related activities include traditional outdoor climbing as well as some indoor mountain climbing activities."
     }
 ]
