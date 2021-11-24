@@ -32,3 +32,5 @@ function WeatherReport(props) {
             </div>
     )
 }
+
+export default WeatherReport;

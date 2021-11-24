@@ -1,7 +1,7 @@
 import React from "react";
 
 function RentReport(props) {
-    const report = props.reports;
+    const report = props.report;
     return(
         <div className="row pb-2">
                 <h2>Rentals</h2>
@@ -38,3 +38,5 @@ function RentReport(props) {
         </div>
     )
 }
+
+export default RentReport;
