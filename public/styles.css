@@ -8,8 +8,8 @@ body {
 }
 
 .navBar {
-    background: #75a2d4;
-
+    background: rgb(235, 230, 230);
+    height: calc(4vw + 20px);
 }
 
 .navList {
@@ -29,7 +29,7 @@ body {
 }
 
 .mountainstop-logo {
-    height: calc(1.6vw + 20px);
+    height: calc(1.8vw + 20px);
 }
 
 .w-100 {
@@ -49,6 +49,10 @@ body {
 	height: 100%; 
 }
 
+.carousel-item img {
+    opacity: 0.7;
+}
+
 .carouselTitle {
 	font-size: calc(2.2vw + 32px);
 	font-weight: bold;
@@ -62,12 +66,12 @@ body {
 .welcomeMessage h2 {
     font-weight: bold;
     margin-bottom: 2rem;
-    font-size: 8rem;
+    font-size: calc(5.8vw + 32px);
+    margin-left: 1.5rem;
 }
 
 .welcomeMessage p {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin: 1rem 1.5rem 1rem 1.5rem;
 }
 
 .welcomeButton {
@@ -77,6 +81,11 @@ body {
     outline: black;
     border-radius: 10px;
     padding: .5rem;
+    margin-left: 1.5rem;
+}
+
+.rows {
+    margin-top: 2rem;
 }
 
 

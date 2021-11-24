@@ -7,8 +7,8 @@ import Button from 'react-bootstrap/Button';
 function Home() {
     return (
         <div className="home">
-            <Carousel style={{ height: "calc(60vh + 10vw)" }}>
-                <Carousel.Item interval={4000}>
+            <Carousel style={{ height: "calc(70vh + 10vw)" }}>
+                <Carousel.Item interval={2500}>
                     <img
                         className="d-block w-100"
                         src="../images/ski.jpeg"
@@ -20,7 +20,7 @@ function Home() {
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item interval={4000}>
+                <Carousel.Item interval={2500}>
                     <img
                         className="d-block w-100"
                         src="../images/hike.jpeg"
@@ -32,7 +32,7 @@ function Home() {
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item interval={4000}>
+                <Carousel.Item interval={2500}>
                     <img
                         className="d-block w-100"
                         src="../images/bike.jpeg"
@@ -46,7 +46,7 @@ function Home() {
                 </Carousel.Item>
             </Carousel>
             <Container>
-                <Row>
+                <Row className="rows">
                     <Col className="welcomeMessage">
                         <h2>Welcome to MountainStop!</h2>
                         <p>
@@ -67,7 +67,7 @@ function Home() {
                         </p>
                     </Col>
                 </Row>
-                <Row>
+                <Row className="rows">
                     <Col>
                         <Button href="/activites" className= "welcomeButton" variant="outline-dark">Check Out the Activites!</Button>
                     </Col>
