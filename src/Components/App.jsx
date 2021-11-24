@@ -7,6 +7,7 @@ import Container from 'react-bootstrap/Container';
 
 import Home from './Home.jsx';
 import Activities from './Activities.jsx';
+import Locations from './Locations.jsx';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/activities" component={Activities}/>
+          <Route path="/activities/locations" component={Locations}/>
         </Switch>
 
         <script src="https://unpkg.com/react/umd/react.production.min.js" crossOrigin></script>

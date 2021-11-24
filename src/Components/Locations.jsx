@@ -28,7 +28,7 @@ export function CardLocations(props) {
 }
 
 export function Location() {
-    const locations = locations.map((location) => {
+    const location = locations.map((location) => {
         return (
             <Col className="mt-4">
                 <CardLocations location={location}></CardLocations>
@@ -40,7 +40,7 @@ export function Location() {
             <h2>Locations</h2>
             <Container>
                 <Row className="locationsRow d-flex my-auto">
-                    {locations}
+                    {location}
                 </Row>
             </Container>
         </div>
