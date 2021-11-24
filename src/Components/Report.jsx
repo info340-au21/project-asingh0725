@@ -47,22 +47,22 @@ export function Report() {
                     </thead>
                     <tbody>
                       <tr>
-                        <th scope="row">{reports.id}</th>
-                        <td>{reports.store}</td>
-                        <td>{reports.halfDay}</td>
-                        <td>{reports.fullDay}</td>
+                        <th scope="row">{reports.id[0]}</th>
+                        <td>{reports.store[0]}</td>
+                        <td>{reports.skiing[0]}</td>
+                        <td>{reports.snowboard[0]}</td>
                       </tr>
                       <tr>
-                      <th scope="row">{reports.id}</th>
-                        <td>{reports.store}</td>
-                        <td>{reports.halfDay}</td>
-                        <td>{reports.fullDay}</td>
+                      <th scope="row">{reports.id[1]}</th>
+                        <td>{reports.store[1]}</td>
+                        <td>{reports.skiing[1]}</td>
+                        <td>{reports.snowboard[1]}</td>
                       </tr>
                       <tr>
-                      <th scope="row">{reports.id}</th>
-                        <td>{reports.store}</td>
-                        <td>{reports.halfDay}</td>
-                        <td>{reports.fullDay}</td>
+                      <th scope="row">{reports.id[2]}</th>
+                        <td>{reports.store[2]}</td>
+                        <td>{reports.skiing[2]}</td>
+                        <td>{reports.snowboard[2]}</td>
                       </tr>
                     </tbody>
                 </table>

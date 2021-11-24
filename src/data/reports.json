@@ -1,0 +1,9 @@
+[
+    {
+        "weather": ["bi bi-brightness-high","bi bi-snow","bi bi-snow","bi bi-cloud-drizzle-fill","bi bi-snow","bi bi-cloud-drizzle-fill"],
+        "id": [1,2,3],
+        "store": ["Big5 Sprting Goods","Dicks Sporting Goods","Walmart"],
+        "skiing": [49,39,35],
+        "snowboard":[99,79,60]
+    }
+]
