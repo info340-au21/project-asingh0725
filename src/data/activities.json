@@ -1,32 +1,32 @@
 [
     {
         "name": "Skiing/Snowboarding",
-        "Seasons": "Autumn, Winter",
+        "seasons": "Autumn, Winter",
         "img": ""
     },
     {
         "name": "Mountain Biking",
-        "Seasons": "Spring, Summer, Autumn",
+        "seasons": "Spring, Summer, Autumn",
         "img": ""
     },
     {
         "name": "Hiking",
-        "Seasons": "Spring, Summer, Autumn, Winter",
+        "seasons": "Spring, Summer, Autumn, Winter",
         "img": ""
     },
     {
         "name": "Snowshoeing",
-        "Seasons": "Winter",
+        "seasons": "Winter",
         "img": ""
     },
     {
         "name": "Ziplining",
-        "Seasons": "Spring, Summer, Autumn, Winter",
+        "seasons": "Spring, Summer, Autumn, Winter",
         "img": ""
     },
     {
         "name": "Mountain Climbing",
-        "Seasons": "Spring, Summer, Autumn, Winter",
+        "seasons": "Spring, Summer, Autumn, Winter",
         "img": ""
     }
 ]
