@@ -1,6 +1,10 @@
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
+import Locations from './Locations.jsx'
+
+import { Route, Link } from 'react-router-dom';
+
 function Activity(props) {
     const activity = props.activity
     return (
@@ -13,9 +17,12 @@ function Activity(props) {
                     <Card.Title>{activity.name}</Card.Title>
                     <Card.Subtitle>{activity.seasons}</Card.Subtitle>
                     <Card.Text>{activity.description}</Card.Text>
-                    <Button className="mt-2 text-center" variant="outline-dark">Locations</Button>
+                    <Link to="/locations">
+                        <Button className="mt-2 text-center" variant="outline-dark">Locations</Button>
+                    </Link>
                 </Card.Body>
             </Card>
+            <Route path="/locations" component={Locations}/>
         </div>
     );
 }

@@ -27,7 +27,7 @@ export function CardLocations(props) {
     );
 }
 
-export function Location() {
+export default function Location() {
     const location = locations.map((location) => {
         return (
             <Col className="mt-4">

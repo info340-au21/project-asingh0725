@@ -10,37 +10,37 @@ function Home() {
             <Carousel style={{ height: "calc(70vh + 10vw)" }}>
                 <Carousel.Item interval={2500}>
                     <img
-                        className="d-block w-100"
-                        src="../images/ski.jpeg"
+                        className="carouselImg d-block w-100"
+                        src="../images/carousel/forecast.jpg"
                         alt="skiing"
                     />
                     <Carousel.Caption style={{ bottom: "22%", letterSpacing: "10pt" }}>
                         <div>
-                            <h1 className="carouselTitle">SKIING</h1>
+                            <h1 className="carouselTitle">FORECASTS</h1>
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item interval={2500}>
                     <img
-                        className="d-block w-100"
-                        src="../images/hike.jpeg"
+                        className="carouselImg d-block w-100"
+                        src="../images/carousel/rental.jpg"
                         alt="hiking"
                     />
                     <Carousel.Caption style={{ bottom: "22%", letterSpacing: "10pt" }}>
                         <div>
-                            <h1 className="carouselTitle">HIKING</h1>
+                            <h1 className="carouselTitle">RENTALS</h1>
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item interval={2500}>
                     <img
-                        className="d-block w-100"
-                        src="../images/bike.jpeg"
+                        className="carouselImg d-block w-100"
+                        src="../images/carousel/review.png"
                         alt="biking"
                     />
                     <Carousel.Caption style={{ bottom: "22%", letterSpacing: "10pt" }}>
                         <div>
-                            <h1 className="carouselTitle">BIKING</h1>
+                            <h1 className="carouselTitle">REVIEWS</h1>
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>
