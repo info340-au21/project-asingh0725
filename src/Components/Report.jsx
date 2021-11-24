@@ -4,7 +4,6 @@ import ReviewForm from "./ReviewForm.jsx";
 import reports from "../data/reports.json";
 
 export default function Report() {
-    console.log(reports['id']);
     return (
         <div className="col-12">
             <div className="row pb-2">
