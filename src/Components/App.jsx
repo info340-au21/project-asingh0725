@@ -18,7 +18,7 @@ function App() {
             <Container>
               <Navbar.Brand href="#home">
                 <Link to="/">
-                  <img alt="mountainstoplogo" src="../images/mountainstop.png" className="mountainstop-logo"></img>
+                  <img alt="mountainstoplogo" src="../images/activities/mountainstop.png" className="mountainstop-logo"></img>
                 </Link>
               </Navbar.Brand>
 

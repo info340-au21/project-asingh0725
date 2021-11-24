@@ -2,7 +2,7 @@
     {
         "name":"Crystal Mountain",
         "location":"Pierce County, Washington",
-        "img":"../../public/images/locations/crystal.jpg",
+        "img":"../../images/locations/crystal.jpg",
         "description":"With over 2,600 acres of skiable terrain, Crystal Mountain Resort is the largest ski resort in Washington.",
         "caption":"Crystal Mountain Resort"
     },
@@ -10,7 +10,7 @@
     {
         "name":"Snoqualmie Pass",
         "location":"King County, Washington",
-        "img":"../../public/images/locations/snoqualmie.png",
+        "img":"../../images/locations/snoqualmie.png",
         "description":"Located less than an hour from Seattle, The Summit provides a convenient outdoor escape for the region.",
         "caption":"Snoqualmie Pass Resort"
     },
@@ -18,7 +18,7 @@
     {
         "name":"White Pass",
         "location":"",
-        "img":"../../public/images/locations/white_pass.jpg",
+        "img":"../../images/locations/white_pass.jpg",
         "description":"With majestic views of Mt. Rainier, White Pass provides terrain for skiers and riders of every ability.",
         "caption": "White Pass Resort"
     },
@@ -26,7 +26,7 @@
     {
         "name":"Stevens Pass",
         "location":"King County, Washington",
-        "img":"../../public/images/locations/stevens_pass.jpg",
+        "img":"../../images/locations/stevens_pass.jpg",
         "description":"Stevens is located on two national forests, the Mt. Baker-Snoqualmie on the west side of the crest and the Wenatchee National Forest on the east.",
         "caption":"Stevens Pass Resort"
     }

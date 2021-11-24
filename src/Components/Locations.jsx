@@ -9,7 +9,7 @@ import locations from '../data/locations.json'
 
 
 export function CardLocations(props) {
-    const location = props.locations;
+    const location = props.location;
     return (
         <div>
             <Card border="light" className="locationCard d-flex mx-auto my-auto text-center" style={{ width: '22rem' }}>
@@ -20,7 +20,7 @@ export function CardLocations(props) {
                     <Card.Title>{location.name}</Card.Title>
                     <Card.Subtitle>{location.location}</Card.Subtitle>
                     <Card.Text>{location.description}</Card.Text>
-                    <Button className="mt-2 text-center" variant="outline-dark">Check Out Locations</Button>
+                    <Button className="mt-2 text-center" variant="outline-dark">Details</Button>
                 </Card.Body>
             </Card>
         </div>
