@@ -6,6 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 
 import Home from './Home.jsx';
+import Activities from './Activities.jsx';
 
 function App() {
   return (
@@ -28,8 +29,10 @@ function App() {
           </Navbar>
         </header>
 
+        
         <Switch>
           <Route path="/" exact component={Home} />
+          <Route path="/activities" component={Activities}/>
         </Switch>
 
         <script src="https://unpkg.com/react/umd/react.production.min.js" crossOrigin></script>
