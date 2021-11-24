@@ -65,6 +65,11 @@ body {
     font-size: 8rem;
 }
 
+.welcomeMessage p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 .welcomeButton {
     margin-bottom: 2rem;
     margin-top: 1rem;
