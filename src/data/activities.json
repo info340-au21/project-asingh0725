@@ -1,32 +1,32 @@
 [
     {
-        "name": "Crystal Mountain",
-        "location": "Pierce County, Washington",
+        "name": "Skiing/Snowboarding",
+        "Seasons": "Autumn, Winter",
         "img": ""
     },
     {
-        "name": "Crystal Mountain",
-        "location": "Pierce County, Washington",
+        "name": "Mountain Biking",
+        "Seasons": "Spring, Summer, Autumn",
         "img": ""
     },
     {
-        "name": "Crystal Mountain",
-        "location": "Pierce County, Washington",
+        "name": "Hiking",
+        "Seasons": "Spring, Summer, Autumn, Winter",
         "img": ""
     },
     {
-        "name": "Crystal Mountain",
-        "location": "Pierce County, Washington",
+        "name": "Snowshoeing",
+        "Seasons": "Winter",
         "img": ""
     },
     {
-        "name": "Crystal Mountain",
-        "location": "Pierce County, Washington",
+        "name": "Ziplining",
+        "Seasons": "Spring, Summer, Autumn, Winter",
         "img": ""
     },
     {
-        "name": "Crystal Mountain",
-        "location": "Pierce County, Washington",
+        "name": "Mountain Climbing",
+        "Seasons": "Spring, Summer, Autumn, Winter",
         "img": ""
     }
 ]
