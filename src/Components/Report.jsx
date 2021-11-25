@@ -7,7 +7,7 @@ import reports from "../data/reports.json";
 
 export default function Report() {
     return (
-        <div className="col-12">
+        <div className="report col-12">
             {/* <WeatherReport report = {reports}></WeatherReport>
             <RentReport report = {reports}></RentReport> */}
             <div className="row pb-2">
