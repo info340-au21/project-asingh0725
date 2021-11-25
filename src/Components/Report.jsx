@@ -8,8 +8,8 @@ import reports from "../data/reports.json";
 export default function Report() {
     return (
         <div className="col-12">
-            {/* <WeatherReport report = {reports}></WeatherReport>
-            <RentReport report = {reports}></RentReport> */}
+            <WeatherReport reports = {reports}></WeatherReport>
+            <RentReport reports = {reports}></RentReport>
             <div className="row pb-2">
                 <h2>Reviews</h2>
                 <div>
@@ -26,8 +26,8 @@ export default function Report() {
                             </div>
                             <div>
                                 <p className="text-secondary text center text-left pl-3">
-                                    <a className="btn text-white btn-danger">Like</a>
-                                    <a className="btn btn-outline-primary ml-2 mr-2">Reply</a>
+                                    <button className="btn btn-danger"><a className="text-white">Like</a></button>
+                                    <button className="btn btn-primary"><a className="text-white">Reply</a></button>
                                     2 Months Ago
                                 </p>
                             </div>

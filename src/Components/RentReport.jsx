@@ -1,7 +1,7 @@
 import React from "react";
 
 function RentReport(props) {
-    const report = props.report;
+    const report = props.reports;
     return(
         <div className="row pb-2">
                 <h2>Rentals</h2>
@@ -16,22 +16,22 @@ function RentReport(props) {
                     </thead>
                     <tbody>
                       <tr>
-                        <th scope="row">{report.id[0]}</th>
-                        <td>{report.store[0]}</td>
-                        <td>{report.skiing[0]}</td>
-                        <td>{report.snowboard[0]}</td>
+                        <td scope="row">1</td>
+                        <td>Big 5 Sporting Goods</td>
+                        <td>49</td>
+                        <td>99</td>
                       </tr>
                       <tr>
-                      <th scope="row">{report.id[1]}</th>
-                        <td>{report.store[1]}</td>
-                        <td>{report.skiing[1]}</td>
-                        <td>{report.snowboard[1]}</td>
+                      <td scope="row">2</td>
+                        <td>Dicks Sporting Goods</td>
+                        <td>39</td>
+                        <td>79</td>
                       </tr>
                       <tr>
-                      <th scope="row">{report.id[2]}</th>
-                        <td>{report.store[2]}</td>
-                        <td>{report.skiing[2]}</td>
-                        <td>{report.snowboard[2]}</td>
+                      <td scope="row">3</td>
+                        <td>Walmart</td>
+                        <td>35</td>
+                        <td>60</td>
                       </tr>
                     </tbody>
                 </table>

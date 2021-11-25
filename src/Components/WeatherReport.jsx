@@ -1,33 +1,39 @@
 import React from "react";
 
 function WeatherReport(props) {
-    const report = props.reports;
+    const reports = props.reports;
     return(
-        <div className="row pb-2">
+        <div className="row pb-2 mb-2 mt-5">
                     <h2>Weather</h2>
                     <div className="col-2">
-                        <i className={report.weather[0]}></i>
+                        {/* <i className={report.weath}></i> */}
                         <h3>Sun</h3>
+                        <p>Sunny</p>
                     </div>
                     <div className="col-2">
-                        <i className={report.weather[1]}></i>
+                        {/* <i className={report.weather[1]}></i> */}
                         <h3>Mon</h3>
+                        <p>Snow</p>
                     </div>
                     <div className="col-2">
-                        <i className={report.weather[2]}></i>
+                        {/* <i className={report.weather[2]}></i> */}
                         <h3>Tue</h3>
+                        <p>Snow</p>
                     </div>
                     <div className="col-2">
-                        <i className={report.weather[3]}></i>
+                        {/* <i className={report.weather[3]}></i> */}
                         <h3>Wed</h3>
+                        <p>Drizzle</p>
                     </div>
                     <div className="col-2">
-                        <i className={report.weather[4]}></i>
+                        {/* <i className={report.weather[4]}></i> */}
                         <h3>Thur</h3>
+                        <p>Snow</p>
                     </div>
                     <div className="col-2">
-                        <i className={report.weather[5]}></i>
+                        {/* <i className={report.weather[5]}></i> */}
                         <h3>Fri</h3>
+                        <p>Drizzle</p>
                     </div>
             </div>
     )

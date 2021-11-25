@@ -120,14 +120,26 @@ body {
 
 #body {
     padding: 5px;
+    margin-top: 50px;
     border: 1px solid grey;
     border-radius: 10px;
 }
 
-#review_field {
-    max-width: 650px;
+.btn.btn-danger, .btn.btn-primary{
+    margin-right: 8px;
 }
 
+.card-body, .mb-3 {
+    max-width: 1000px;
+}
+
+.mb-3 {
+    margin-left: 12px;
+}
+.row.pb-2{
+    margin-left: 10px;
+    max-width: 1000px;
+}
 
 @media (max-width: 768px) {
     .activitiesRow {
