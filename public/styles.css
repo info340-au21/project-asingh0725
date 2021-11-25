@@ -98,7 +98,7 @@ body {
     margin-top: 2rem;
 }
 
-.activities {
+.activities, .locations, .report {
     margin-top: calc(4vw + 30px);
 }
 
