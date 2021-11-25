@@ -21,7 +21,7 @@ export function CardLocations(props) {
                     <Card.Title>{location.name}</Card.Title>
                     <Card.Subtitle>{location.location}</Card.Subtitle>
                     <Card.Text>{location.description}</Card.Text>
-                    <Link to="/Report">
+                    <Link to="/report">
                         <Button className="mt-2 text-center" variant="outline-dark">Details</Button>
                     </Link>
                 </Card.Body>

@@ -118,6 +118,17 @@ body {
     overflow: hidden;
 }
 
+#body {
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+#review_field {
+    max-width: 650px;
+}
+
+
 @media (max-width: 768px) {
     .activitiesRow {
         flex-direction: column;

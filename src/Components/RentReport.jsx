@@ -16,19 +16,19 @@ function RentReport(props) {
                     </thead>
                     <tbody>
                       <tr>
-                        <th scope="row">{reports.id[0]}</th>
+                        <th scope="row">{report.id[0]}</th>
                         <td>{report.store[0]}</td>
                         <td>{report.skiing[0]}</td>
                         <td>{report.snowboard[0]}</td>
                       </tr>
                       <tr>
-                      <th scope="row">{reports.id[1]}</th>
+                      <th scope="row">{report.id[1]}</th>
                         <td>{report.store[1]}</td>
                         <td>{report.skiing[1]}</td>
                         <td>{report.snowboard[1]}</td>
                       </tr>
                       <tr>
-                      <th scope="row">{reports.id[2]}</th>
+                      <th scope="row">{report.id[2]}</th>
                         <td>{report.store[2]}</td>
                         <td>{report.skiing[2]}</td>
                         <td>{report.snowboard[2]}</td>
