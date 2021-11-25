@@ -16,22 +16,22 @@ function RentReport(props) {
                     </thead>
                     <tbody>
                       <tr>
-                        <td scope="row">1</td>
-                        <td>Big 5 Sporting Goods</td>
-                        <td>49</td>
-                        <td>99</td>
+                        <td scope="row">{report[0].id[0]}</td>
+                        <td>{report[0].store[0]}</td>
+                        <td>{report[0].skiing[0]}</td>
+                        <td>{report[0].snowboard[0]}</td>
                       </tr>
                       <tr>
-                      <td scope="row">2</td>
-                        <td>Dicks Sporting Goods</td>
-                        <td>39</td>
-                        <td>79</td>
+                      <td scope="row">{report[0].id[1]}</td>
+                        <td>{report[0].store[1]}</td>
+                        <td>{report[0].skiing[1]}</td>
+                        <td>{report[0].snowboard[1]}</td>
                       </tr>
                       <tr>
-                      <td scope="row">3</td>
-                        <td>Walmart</td>
-                        <td>35</td>
-                        <td>60</td>
+                      <td scope="row">{report[0].id[2]}</td>
+                        <td>{report[0].store[2]}</td>
+                        <td>{report[0].skiing[2]}</td>
+                        <td>{report[0].snowboard[2]}</td>
                       </tr>
                     </tbody>
                 </table>

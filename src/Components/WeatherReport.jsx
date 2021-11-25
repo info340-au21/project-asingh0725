@@ -8,32 +8,32 @@ function WeatherReport(props) {
                     <div className="col-2">
                         {/* <i className={report.weath}></i> */}
                         <h3>Sun</h3>
-                        <p>Sunny</p>
+                        <p>{reports[0].weather[0]}</p>
                     </div>
                     <div className="col-2">
                         {/* <i className={report.weather[1]}></i> */}
                         <h3>Mon</h3>
-                        <p>Snow</p>
+                        <p>{reports[0].weather[1]}</p>
                     </div>
                     <div className="col-2">
                         {/* <i className={report.weather[2]}></i> */}
                         <h3>Tue</h3>
-                        <p>Snow</p>
+                        <p>{reports[0].weather[2]}</p>
                     </div>
                     <div className="col-2">
                         {/* <i className={report.weather[3]}></i> */}
                         <h3>Wed</h3>
-                        <p>Drizzle</p>
+                        <p>{reports[0].weather[3]}</p>
                     </div>
                     <div className="col-2">
                         {/* <i className={report.weather[4]}></i> */}
                         <h3>Thur</h3>
-                        <p>Snow</p>
+                        <p>{reports[0].weather[4]}</p>
                     </div>
                     <div className="col-2">
                         {/* <i className={report.weather[5]}></i> */}
                         <h3>Fri</h3>
-                        <p>Drizzle</p>
+                        <p>{reports[0].weather[5]}</p>
                     </div>
             </div>
     )
