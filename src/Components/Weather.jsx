@@ -10,7 +10,7 @@ export default function Weather(props) {
     }
     //const location = locations;
     fetchApiData = () => {
-        const weatherUrl = `api.openweathermap.org/data/2.5/weather?lat=${props.location.lat}&lon=${props.location.lon}&units=${this.state.degreeType}&appid=0fe2033efdd77a1e5dfb7a392e963afb`;
+        const weatherUrl = "api.openweathermap.org/data/2.5/weather?lat="+props.location.lat+"&lon="+props.location.lon+"&units="+this.state.degreeType+"&appid=0fe2033efdd77a1e5dfb7a392e963afb";
         fetch(weatherUrl)
             .then(response => response.json())
             .then(data => {
