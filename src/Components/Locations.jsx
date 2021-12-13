@@ -13,7 +13,7 @@ export default function Location({ getLocation }) {
     const location = locations.map((location) => {
         return (
             <Col className="mt-4">
-                <LocationCard reviewButton={getLocationName}ation={location}></LocationCard>
+                <LocationCard reviewButton={getLocationName} location={location}></LocationCard>
             </Col>
         );
     });

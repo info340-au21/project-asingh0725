@@ -1,3 +1,5 @@
+import React from 'react';
+
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
@@ -5,10 +7,8 @@ import { Link } from 'react-router-dom';
 
 export default function LocationCard(props) {
     const location = props.location;
-    const [location, setLocation] = useState('');
-    setLocation(location.name);
     const handleReview = (event) => {
-        props.getLocationName(location.name);
+        props.reviewButton(location.name);
     }
     return (
         <div>

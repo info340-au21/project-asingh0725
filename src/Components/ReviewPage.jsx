@@ -7,7 +7,6 @@ import REVIEW_LOG from './../data/review_log.json'
 
 function ReviewPage({ location, user }) {
     const [reviewArray, setReviewArray] = useState(REVIEW_LOG);
-
     const addReview = (reviewUser, reviewText, reviewActivity, reviewLocation) => {
         const newReview = {
             "userId": reviewUser,
@@ -21,7 +20,7 @@ function ReviewPage({ location, user }) {
         setReviewArray(newReviewArray);
     }
     return(
-        <div className="reviewPage"> 
+        <div className="reviewPage">
             <h2>Reviews for {location}</h2>
             <CreateReview submitButton={addReview} location={location} user={user}></CreateReview>
             <ReviewPane reviewLog={reviewArray} location={location}></ReviewPane>

@@ -1,6 +1,6 @@
+/*
 import React from 'react';
-import './Card.css';
-var moment = require('moment');
+// var moment = require('moment');
 
 export default function WeatherCard(props) {
     let date = new Date();
@@ -23,3 +23,4 @@ export default function WeatherCard(props) {
       </div>
     )
 }
+*/

@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 import WeatherCard from './WeatherCard.jsx'
 import DegreeType from './DegreeType.jsx'
 import locations from '../data/locations.json';
@@ -56,3 +56,4 @@ export default function Weather() {
         </div>
       )
 }
+*/
