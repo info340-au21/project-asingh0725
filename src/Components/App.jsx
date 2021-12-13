@@ -11,10 +11,35 @@ import Locations from './Locations';
 import ReviewPage from './ReviewPage';
 import Weather from './Weather';
 import Rental from './Rental';
+import Login from './Login';
 
 import locations from './../data/locations.json';
+import { useEffect } from 'react';
+import { getAuth, onAuthStateChanged, signOut } from 'firebase/auth';
 
 function App() {
+  const [currentUser, setCurrentUser] = useState(null);
+
+  const auth = getAuth();
+
+  useEffect(() => {
+    const unregisteredAuthListener = onAuthStateChanged(auth, (user) => {
+      if (user) {
+        setCurrentUser(user);
+      } else {
+        setCurrentUser(null);
+      }
+    })
+
+    return () => {
+      unregisteredAuthListener();
+    }
+  }, [auth])
+
+  const handleSignOut = (event) => {
+    signOut(getAuth());
+  }
+
   const [locationName, setLocationName] = useState('');
   const getLocationName = (locationName) => {
     setLocationName(locationName)
@@ -34,6 +59,13 @@ function App() {
               <Nav className="ms-auto navList">
                 <NavLink to="/" className="subLink">Home</NavLink>
                 <NavLink to="/locations" className="subLink">Locations</NavLink>
+                {currentUser && <>
+                  {/* <NavLink to="/login" className="subLink">{currentUser.displayName}</NavLink> */}
+                  <button className="btn btn-secondary ms-2" onClick={handleSignOut}>Sign Out {currentUser.displayName}</button>
+                </>}
+                {!currentUser &&
+                  <NavLink to="/login" className="subLink">Login</NavLink>
+                }
               </Nav>
             </Container>
           </Navbar>
@@ -48,13 +80,16 @@ function App() {
             <Locations getLocation={getLocationName} locations={locations}></Locations>
           </Route>
           <Route path="/review">
-            <ReviewPage location={locationName}></ReviewPage>
+            <ReviewPage location={locationName} user={currentUser}></ReviewPage>
           </Route>
           <Route path="/rental">
             <Rental></Rental>
           </Route>
           <Route path="/weather">
             <Weather></Weather>
+          </Route>
+          <Route path="/login">
+            <Login user={currentUser}></Login>
           </Route>
         </Switch>
 
