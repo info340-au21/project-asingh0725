@@ -9,13 +9,13 @@ import Home from './Home';
 import Locations from './Locations';
 
 import ReviewPage from './ReviewPage';
-import Weather from './Weather';
 import Rental from './Rental';
 import Login from './Login';
 
 import locations from './../data/locations.json';
 import { useEffect } from 'react';
 import { getAuth, onAuthStateChanged, signOut } from 'firebase/auth';
+import WeatherPage from './WeatherPage';
 
 function App() {
   const [currentUser, setCurrentUser] = useState(null);
@@ -86,7 +86,7 @@ function App() {
             <Rental></Rental>
           </Route>
           <Route path="/weather">
-            <Weather></Weather>
+            <WeatherPage></WeatherPage>
           </Route>
           <Route path="/login">
             <Login user={currentUser}></Login>
