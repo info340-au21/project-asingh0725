@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 import Rental from './rentalData.json';
 
 function rental (props) {
@@ -7,3 +7,4 @@ function rental (props) {
         <div className = ""
     )
 }
+*/

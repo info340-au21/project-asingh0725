@@ -124,6 +124,37 @@ body {
 .reviewPage {
     margin-top: calc(4vw + 30px);
 }
+
+.reviewBox {
+    padding: 10px;
+    background-color: rgb(235, 230, 230);
+    border-style: ridge;
+    border-color: rgb(235, 230, 230);
+    border-radius: 5px;
+}
+
+.reviewName {
+    font-weight: bold;
+    font-size: calc(0.4vw + 12px);
+}
+
+.reviewDate {
+    font-weight: lighter;
+    font-size: calc(0.2vw + 12px);
+}
+
+.reviewActivity em { 
+    font-weight: bold;
+}
+
+.reviewText em {
+    font-weight: bold;
+}
+
+.Login {
+    margin-top: calc(4vw + 30px);
+}
+
 @media (max-width: 768px) {
     .activitiesRow {
         flex-direction: column;
