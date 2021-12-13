@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import LoginWarn from './LoginWarn';
 
 function CreateReview(props) {
     const [textValue, setTextValue] = useState('');
@@ -21,17 +22,22 @@ function CreateReview(props) {
   return (
         <form>
             <div>
-                <textarea className="reviewText form-control" 
-                          onChange={handleTextInput}
-                          value={textValue}
-                          placeholder="Write your review!">
-                </textarea>
-                <textarea className="activityText form-control"
-                          onChange={handleActivityInput}
-                          value={activityValue}
-                          placeholder="Name the activities you did!">
-                </textarea>
-                <button className="btn btn-primary" type="button" onClick={handleSubmit}>Submit Review!</button>
+                {!props.currentUser && 
+                   <LoginWarn />
+                }
+                {props.currentUser && <>
+                    <textarea className="reviewText form-control" 
+                            onChange={handleTextInput}
+                            value={textValue}
+                            placeholder="Write your review!">
+                    </textarea>
+                    <textarea className="activityText form-control"
+                            onChange={handleActivityInput}
+                            value={activityValue}
+                            placeholder="Name the activities you did!">
+                    </textarea>
+                    <button className="btn btn-primary" type="button" onClick={handleSubmit}>Submit Review!</button>
+                </> }
             </div>
         </form>
 	);

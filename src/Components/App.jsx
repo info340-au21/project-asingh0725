@@ -80,7 +80,7 @@ function App() {
             <Locations getLocation={getLocationName} locations={locations}></Locations>
           </Route>
           <Route path="/review">
-            <ReviewPage location={locationName} user={currentUser}></ReviewPage>
+            <ReviewPage location={locationName} currentUser={currentUser}></ReviewPage>
           </Route>
           <Route path="/rental">
             <Rental></Rental>
