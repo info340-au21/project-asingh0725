@@ -24,15 +24,15 @@ function ReviewPane({ reviewLog, location }) {
 function Review(props) {
     const reviewObject = props.reviewData;
 
-    const [liked, setLiked] = useState(0);
-    const [disliked, setDisliked] = useState(0);
+    const [like, setLike] = useState(0);
+    const [dislike, setDislike] = useState(0);
 
     const handleLike = (event) => {
-        setLiked(liked + 1);
+        setLike(like + 1);
     };
 
     const handleDislike = (event) => {
-        setDisliked(disliked + 1);
+        setDislike(dislike + 1);
     };
 
     return (
@@ -55,11 +55,11 @@ function Review(props) {
                     </Row>
                     <Row className="reviewButtonsRow justify-content-end">
                         <Col className="col-4">
-                            <button className="btn likeButton" onClick={handleLike}>
-                                <span className="like fa fa-thumbs-up"></span>
+                            <button className="btn btn-secondary likeButton" onClick={handleLike}>
+                                <span className="like">{like}</span>
                             </button>
-                            <button className="btn dislikeButton" onClick={handleDislike}>
-                                <span className="like fa fa-thumbs-down"></span>
+                            <button className="btn btn-secondary dislikeButton" onClick={handleDislike}>
+                                <span className="dislike">{dislike}</span>
                             </button>
                         </Col>
                     </Row>
