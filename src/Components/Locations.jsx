@@ -6,11 +6,14 @@ import Container from 'react-bootstrap/Container';
 import locations from '../data/locations.json'
 import LocationCard from "./LocationCard";
 
-export default function Location() {
+export default function Location({ getLocation }) {
+    const getLocationName = (locationName) => {
+        getLocation(locationName);
+    }
     const location = locations.map((location) => {
         return (
             <Col className="mt-4">
-                <LocationCard location={location}></LocationCard>
+                <LocationCard reviewButton={getLocationName}ation={location}></LocationCard>
             </Col>
         );
     });

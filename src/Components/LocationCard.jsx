@@ -5,6 +5,11 @@ import { Link } from 'react-router-dom';
 
 export default function LocationCard(props) {
     const location = props.location;
+    const [location, setLocation] = useState('');
+    setLocation(location.name);
+    const handleReview = (event) => {
+        props.getLocationName(location.name);
+    }
     return (
         <div>
             <Card border="light" className="locationCard d-flex mx-auto my-auto text-center" style={{ width: '22rem' }}>
@@ -23,7 +28,7 @@ export default function LocationCard(props) {
                             <Button className="mt-2 text-center" variant="outline-dark">Rentals</Button>
                         </Link>
                         <Link to="/review">
-                            <Button className="mt-2 text-center" variant="outline-dark">Reviews</Button>
+                            <Button className="mt-2 text-center" onClick={handleReview} variant="outline-dark">Reviews</Button>
                         </Link>
                     </Row>
                 </Card.Body>

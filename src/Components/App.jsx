@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter, Route, Switch, NavLink, Link } from 'react-router-dom';
 
 import Nav from 'react-bootstrap/Nav';
@@ -15,6 +15,10 @@ import Rental from './Rental';
 import locations from './../data/locations.json';
 
 function App() {
+  const [locationName, setLocationName] = useState('');
+  const getLocationName = (locationName) => {
+    setLocationName(locationName)
+  }
   return (
     <BrowserRouter basename="/mountainstop">
       <div>
@@ -41,10 +45,10 @@ function App() {
             <Home></Home>
           </Route>
           <Route path="/locations">
-            <Locations locations={locations}></Locations>
+            <Locations getLocation={getLocationName} locations={locations}></Locations>
           </Route>
           <Route path="/review">
-            <ReviewPage></ReviewPage>
+            <ReviewPage location={locationName}></ReviewPage>
           </Route>
           <Route path="/rental">
             <Rental></Rental>
