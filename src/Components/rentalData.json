@@ -1,0 +1,45 @@
+[
+    {
+        "location": "Crystal",
+        "sport": "Ski",
+        "equipment": ["Skis", "Boots", "Poles"],
+        "price": [50, 30, 10],
+        "availability": true
+    },
+    {
+        "location": "Crystal",
+        "sport": "Snowboard",
+        "equipment": ["Board", "Boots"],
+        "price": [50, 30],
+        "availability": true
+    },
+    {
+        "location": "Crystal",
+        "sport": "Snow Shoe",
+        "equipment": ["Snowshoes", "Poles"],
+        "price": [35, 10],
+        "availability": true
+    },
+    {
+        "location": "Snoqualmie",
+        "sport": "Ski",
+        "equipment": ["Skis", "Boots", "Poles"],
+        "price": [45, 30, 15],
+        "availability": true
+    },
+    {
+        "location": "Snoqualmie",
+        "sport": "Snowboard",
+        "equipment": ["Board", "Boots"],
+        "price": [50, 30],
+        "availability": true
+    },
+    {
+        "location": "Snoqualmie",
+        "sport": "Snow Shoe",
+        "equipment": ["Snowshoes", "Poles"],
+        "price": [30, 15],
+        "availability": true
+    }
+
+]
