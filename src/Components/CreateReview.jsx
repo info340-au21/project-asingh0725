@@ -22,10 +22,10 @@ function CreateReview(props) {
   return (
         <form>
             <div>
-                {!props.currentUser && 
+                {!props.user && 
                    <LoginWarn />
                 }
-                {props.currentUser && <>
+                {props.user && <>
                     <textarea className="reviewText form-control" 
                             onChange={handleTextInput}
                             value={textValue}
