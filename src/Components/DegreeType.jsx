@@ -46,16 +46,6 @@ import React from 'react';
 const DegreeType = ({degreeType, updateForecastDegree}) => {
   return (
     <React.Fragment>
-      <span className="switch">
-      <input type="checkbox" className="slider" id="switch-id"/>
-      </span>
-
-      <span className="switch">
-  <input type="checkbox" className="switch" id="switch-id"/>
-  <label for="switch-id">Small switch</label>
-</span>
-
-
       <div class="form-check form-check-inline">
         <input
         class="form-check-input"
