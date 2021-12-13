@@ -1,16 +1,16 @@
-/* import React from "react";
+import React from "react";
 import WeatherCard from './WeatherCard.jsx'
 import DegreeType from './DegreeType.jsx'
-import locations from '../data/locations.json';
+//import locations from '../data/locations.json';
 
-export default function Weather() {
+export default function Weather(props) {
     state = {
         days: [],
         degreeType: "imperial"
     }
-    const location = locations;
+    //const location = locations;
     fetchApiData = () => {
-        const weatherUrl = `api.openweathermap.org/data/2.5/weather?lat=${location.lat}&lon=${location.lon}&units=${this.state.degreeType}&appid=0fe2033efdd77a1e5dfb7a392e963afb`;
+        const weatherUrl = `api.openweathermap.org/data/2.5/weather?lat=${props.location.lat}&lon=${props.location.lon}&units=${this.state.degreeType}&appid=0fe2033efdd77a1e5dfb7a392e963afb`;
         fetch(weatherUrl)
             .then(response => response.json())
             .then(data => {
@@ -35,7 +35,7 @@ export default function Weather() {
     }
 
     sendNewData = () => {
-        const weatherUrl = `api.openweathermap.org/data/2.5/weather?lat=${location.lat}&lon=${location.lon}&units=${this.state.degreeType}&appid=0fe2033efdd77a1e5dfb7a392e963afb`;
+        const weatherUrl = `api.openweathermap.org/data/2.5/weather?lat=${props.location.lat}&lon=${props.location.lon}&units=${this.state.degreeType}&appid=0fe2033efdd77a1e5dfb7a392e963afb`;
         fetch(weatherUrl)
             .then(response => response.json())
             .then(data => {
@@ -49,11 +49,10 @@ export default function Weather() {
         <div className="container">
             <h1 className="display-1 jumbotron">5-Day Forecast.</h1>
             <DegreeType degreeType={this.state.degreeType} updateCorF={this.updateCorF}/>
-            <h5 className="display-5 text-muted">{this.location.name}</h5>
+            <h5 className="display-5 text-muted">{props.location.name}</h5>
             <div className="row justify-content-center">
                   {card}
             </div>
         </div>
       )
 }
-*/
