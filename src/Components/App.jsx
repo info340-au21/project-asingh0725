@@ -5,10 +5,14 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 
-import Home from './Home.jsx';
-import Activities from './Activities.jsx';
-import Locations from './Locations.jsx'
-import Report from './Report.jsx';
+import Home from './Home';
+import Locations from './Locations';
+
+import ReviewPage from './ReviewPage';
+import Weather from './Weather';
+import Rental from './Rental';
+
+import locations from './../data/locations.json';
 
 function App() {
   return (
@@ -25,7 +29,7 @@ function App() {
 
               <Nav className="ms-auto navList">
                 <NavLink to="/" className="subLink">Home</NavLink>
-                <NavLink to="/activities" className="subLink">Activities</NavLink>
+                <NavLink to="/locations" className="subLink">Locations</NavLink>
               </Nav>
             </Container>
           </Navbar>
@@ -33,10 +37,21 @@ function App() {
 
         
         <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/activities" component={Activities}/>
-          <Route path="/locations" component={Locations}/>
-          <Route path="/report" component={Report}/>
+          <Route exact path="/">
+            <Home></Home>
+          </Route>
+          <Route path="/locations">
+            <Locations locations={locations}></Locations>
+          </Route>
+          <Route path="/review">
+            <ReviewPage></ReviewPage>
+          </Route>
+          <Route path="/rental">
+            <Rental></Rental>
+          </Route>
+          <Route path="/weather">
+            <Weather></Weather>
+          </Route>
         </Switch>
 
         <script src="https://unpkg.com/react/umd/react.production.min.js" crossOrigin></script>

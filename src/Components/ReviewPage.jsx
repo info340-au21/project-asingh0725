@@ -21,7 +21,7 @@ function ReviewPage({ location, user }) {
         setReviewArray(newReviewArray);
     }
     return(
-        <div> 
+        <div className="reviewPage"> 
             <h2>Reviews for {location}</h2>
             <CreateReview submitButton={addReview} location={location} user={user}></CreateReview>
             <ReviewPane reviewLog={reviewArray} location={location}></ReviewPane>

@@ -14,6 +14,7 @@ export default function Location() {
             </Col>
         );
     });
+
     return(
         <div className="locations">
             <h2>Locations</h2>

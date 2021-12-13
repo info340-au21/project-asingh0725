@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
-import Col from 'react-bootstrap';
-import Row from 'react-bootstrap';
-import Container from 'react-bootstrap';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+import Container from 'react-bootstrap/Container';
 
 
 function ReviewPane({ reviewLog, location }) {

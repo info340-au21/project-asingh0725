@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Activity from './Activity';
 
 function CreateReview(props) {
     const [textValue, setTextValue] = useState('');
@@ -32,7 +31,7 @@ function CreateReview(props) {
                           value={activityValue}
                           placeholder="Name the activities you did!">
                 </textarea>
-                <button className="btn btn-primary" type="button" onClick={handleSubmit}/>
+                <button className="btn btn-primary" type="button" onClick={handleSubmit}>Submit Review!</button>
             </div>
         </form>
 	);

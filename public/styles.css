@@ -98,26 +98,6 @@ body {
     margin-top: 2rem;
 }
 
-.activities, .locations, .report {
-    margin-top: calc(4vw + 30px);
-}
-
-.activities h2 {
-    text-align: center;
-    font-size: calc(1.6vw + 32px);
-}
-
-.activityLink {
-    text-decoration: none;
-}
-
-.activityImg {
-    width:100%;
-    height:100%;
-    object-fit: cover;
-    overflow: hidden;
-}
-
 #body {
     padding: 5px;
     margin-top: 50px;
@@ -136,11 +116,14 @@ body {
 .mb-3 {
     margin-left: 12px;
 }
-.row.pb-2{
+.row.pb-2 {
     margin-left: 10px;
     max-width: 1000px;
 }
 
+.reviewPage {
+    margin-top: calc(4vw + 30px);
+}
 @media (max-width: 768px) {
     .activitiesRow {
         flex-direction: column;
