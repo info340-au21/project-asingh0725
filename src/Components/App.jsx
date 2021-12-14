@@ -16,8 +16,10 @@ import { useEffect } from 'react';
 import { getAuth, onAuthStateChanged, signOut } from 'firebase/auth';
 
 import WeatherPage from './WeatherPage';
+
 import locations from './../data/locations.json';
 import REVIEW_LOG from './../data/review_log.json';
+import rentalData from './../data/rental.json';
 
 function App() {
   const [currentUser, setCurrentUser] = useState(null);
@@ -86,7 +88,7 @@ function App() {
             <ReviewPage location={locationName} user={currentUser} reviewData={REVIEW_LOG}></ReviewPage>
           </Route>
           <Route path="/rental">
-            <Rental></Rental>
+            <Rental data={rentalData}></Rental>
           </Route>
           <Route path="/weather">
             <WeatherPage></WeatherPage>
