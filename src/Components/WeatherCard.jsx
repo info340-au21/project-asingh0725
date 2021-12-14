@@ -17,12 +17,9 @@ class WeatherCard extends React.Component {
           <h3 className="card-title text-center">{moment(newDate).format('dddd')}</h3>
           <p className="text-muted text-center">{moment(newDate).format('MMMM Do, h:mm a')}</p>
           <img src={img} alt="the weather conditions" className="img-fluid mw-50"></img> 
-          {/* center the card-heading and make it big/bold */}
-          <h2 className="text-center ">{Math.round(this.props.day.main.temp)} °F</h2>
+          <h2 className="text-center ">{this.props.degreeType === "metric" ? Math.round(this.props.day.main.temp) + "°C" : Math.round(this.props.day.main.temp) + "°F"}</h2>
           <div className="card-body">
-            {/* center the card-text and make it big/bold */}
             <p className="card-text text-center text-capitalize font-weight-bold">{this.props.day.weather[0].description}</p>
-            {/* <button className="btn btn-dark btn-outline-light">See Hourly Forecast</button> */}
           </div>
         </div>
       </div>
