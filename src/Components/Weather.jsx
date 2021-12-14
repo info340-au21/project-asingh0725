@@ -23,7 +23,7 @@ class Weather extends React.Component {
   }
 
   formatCards = () => {
-    return this.state.days.map((day, index) => <WeatherCard day={day} key={index}/>)
+    return this.state.days.map((day, index) => <WeatherCard day={day} key={index} degreeType={this.state.degreeType}/>)
   }
 
   updateForecastDegree = newDegreeType => {

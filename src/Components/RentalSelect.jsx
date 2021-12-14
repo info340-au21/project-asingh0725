@@ -1,24 +1,37 @@
-import React from 'react';
+//import React, { useState } from 'react';
 
-export default function RentalSelect(props) {
+// export default function RentalSelect(props) {
 
-    const chooseActivity = props.map((act, index) => {
-        return <option key={index} value={act}>{act}</option>;
-    })
+//     const [include, setIncluded] = useState(false);
+//     const [selected, setSelected] =  useState("");
 
-    return (
-        <div className="react-select-menu">
-            <ul className="react-select-options">
-                <CheckboxOption value="" value={selected} >
+//     const handleSelect = ((event) => {
+//         setSelected(event.target.value);
+//     })
 
-                </CheckboxOption>
-            </ul>
+//     const handleCheck = ((event) => {
+//         setIncluded(event.target.checked);
+//     })
 
-        <div className="col-auto">
-            <button id="submitButton" type="submit" className="btn btn-warning" onClick={handleClick} >Apply Filter</button>
-        </div>
+//     const chooseActivity = props.map((act, index) => {
+//         return <option key={index} value={act}>{act}</option>;
+//     })
 
-        </div>
+//     return (
+//         <div className="react-select-menu">
+//             <ul className="react-select-options">
+//                 <CheckboxOption value="" value={selected} >
+//                     {chooseActivity}
+//                 </CheckboxOption>
+//             </ul>
+
+//         <div className="col-auto">
+//             <button id="submitButton" type="submit" className="btn btn-warning" onClick={handleClick} >Apply Filter</button>
+//         </div>
+
+//         </div>
         
-    )
-}
+//     )
+    
+// }
+// *}
