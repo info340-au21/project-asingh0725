@@ -8,13 +8,12 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyB-77yk0D7Xm8aRvVIoMBfnITmMiFU3os4",
-  authDomain: "mountainstop-6cc61.firebaseapp.com",
-  projectId: "mountainstop-6cc61",
-  storageBucket: "mountainstop-6cc61.appspot.com",
-  messagingSenderId: "998570659454",
-  appId: "1:998570659454:web:87580d193d462d2082122f",
-  measurementId: "G-44QG2HVB5H"
+  apiKey: "AIzaSyD-QBdlxBJOM8_Xz7Fthymg6klJvEsnA6g",
+  authDomain: "mountainstopab1.firebaseapp.com",
+  projectId: "mountainstopab1",
+  storageBucket: "mountainstopab1.appspot.com",
+  messagingSenderId: "53041095326",
+  appId: "1:53041095326:web:f610e0267ae98ccba2518f"
 };
 
 initializeApp(firebaseConfig);
