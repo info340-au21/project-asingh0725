@@ -35,11 +35,11 @@ function Rental(props) {
     return(
         <div className="rentalPage ml-5">
             <h2>Rentals for {savedLocation}</h2>
-            <div className="col-7 mr-5">
-                <RentalTable data={displayingData}></RentalTable>
-            </div>
             <div className="col-4">
                 <RentalSelect storeOptions={uniqueStoreOptions} callback={applyFilter}></RentalSelect>
+            </div>
+            <div className="col-7 mr-5">
+                <RentalTable data={displayingData}></RentalTable>
             </div>
         </div>
     );

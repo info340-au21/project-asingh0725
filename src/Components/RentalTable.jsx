@@ -74,7 +74,7 @@ function StoreRow({ store }) {
             <td className="p-2">{store.activity}</td>
             <td className="p-2">{store.equipment}</td>
             <td className="p-2">{store.price}</td>
-            <td className="p-2"><button className="btn btn-secondary" href={store.webiste}>Go!</button></td>
+            <td className="p-2"><a href={store.website}><button className="btn btn-success">Go! </button></a></td>
         </tr>
     );
 }
