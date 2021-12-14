@@ -88,7 +88,7 @@ function App() {
             <Rental></Rental>
           </Route>
           <Route path="/weather">
-            <WeatherPage></WeatherPage>
+            <WeatherPage locationValue={locationName}></WeatherPage>
           </Route>
           <Route path="/login">
             <Login user={currentUser}></Login>

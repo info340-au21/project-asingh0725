@@ -39,7 +39,7 @@ class WeatherCard extends React.Component {
     newDate.setTime(weekday)
     const fahrenheit = Math.round(parseInt(this.props.day.main.temp));
     //const celsius = Math.round((fahrenheit - 32) * 5/9);
-    const imgURL = this.props.day.weather[0].icon//"owf owf-"+ this.props.day.weather[0].id +" owf-5x red"
+    //const imgURL = this.props.day.weather[0].icon//"owf owf-"+ this.props.day.weather[0].id +" owf-5x red"
     const img = "http://openweathermap.org/img/w/" + this.props.day.weather[0].icon + ".png"
     // const farenheit = (parseInt(this.props.day.main.temp) - 273.15) * (9/5) + 32
 
