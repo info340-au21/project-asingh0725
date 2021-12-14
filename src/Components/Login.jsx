@@ -29,8 +29,8 @@ export default function Login(props) {
     }
 
     return (
-        <div className="login card bg-clear mt-3">
-            <div className="container card-body mt-5">
+        <div className="loginPage">
+            <div className="loginContainer">
                 <StyledFirebaseAuth uiConfig={fireBaseUIConfig} firebaseAuth={auth}/>
             </div>
         </div>

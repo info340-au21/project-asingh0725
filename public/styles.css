@@ -151,12 +151,42 @@ body {
     font-weight: bold;
 }
 
-.Login {
-    margin-top: calc(4vw + 30px);
+.loginPage {
+    margin-top: calc(16vw + 30px);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.loginContainer {
+    background: rgb(235, 230, 230);
+    width: calc(40vw + 30px);
+    border-style: solid;
+    border-color: rgb(231, 230, 230);
+    padding-top: calc(10vw + 24px);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (max-width: 480px) {
+    .loginContainer {
+        width: calc(40vw + 30px);
+    }
 }
 
 @media (max-width: 768px) {
-    .activitiesRow {
-        flex-direction: column;
+    .loginContainer {
+        width: calc(40vw + 30px);
+    }
+}
+
+@media (max-width: 1024px) {
+    .loginContainer {
+        width: calc(40vw + 30px);
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .loginContainer {
+        width: calc(40vw + 30px);
     }
 }
