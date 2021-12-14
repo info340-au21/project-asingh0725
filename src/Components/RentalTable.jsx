@@ -34,7 +34,7 @@ function RentalTable({ data }) {
     });
 
     return (
-        <div className="rentalTable ml-5">
+        <div className="rentalTable">
             <table className="table">
                 <thead>
                     <tr>

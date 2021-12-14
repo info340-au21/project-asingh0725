@@ -174,7 +174,6 @@ body {
     width: calc(40vw + 30px);
     border-style: solid;
     border-color: rgb(231, 230, 230);
-    padding-top: calc(10vw + 24px);
     margin-right: auto;
     margin-left: auto;
 }
@@ -183,18 +182,50 @@ body {
     margin-top: calc(4vw + 30px);   
 }
 
-@media (max-width: 480px) {
+@media (min-width: 480px) {
+    .rentalTable {
+        max-width: 50%;
+        margin: 0;
+        align-items: center;
+    }
 
+    .locationsRow {
+        flex-direction: column;
+    }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
+    .rentalTable {
+        max-width: 60%;
+        margin: 0;
+        align-items: center;
+    }
 
+    .locationsRow {
+        display: flex;
+        flex-direction: row;
+    }
 }
 
-@media (max-width: 1024px) {
-
+@media (min-width: 1024px) {
+    .rentalTable {
+        max-width: 70%;
+        margin: 0;
+    }
+    .locationsRow {
+        display: flex;
+        flex-direction: row;
+    }
 }
 
-@media (min-width: 1024px) and (max-width: 1200px) {
-
+@media (min-width: 1024px) {
+    .rentalTable {
+        max-width: 100%;
+        margin: 0;
+    }
+    .locationsRow {
+        display: flex;
+        flex-direction: row;
+    }
+    
 }

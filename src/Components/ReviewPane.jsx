@@ -4,7 +4,7 @@ function ReviewPane({ reviewLog, location }) {
     const locationReviews = reviewLog.filter((review) => {
         return review.location === location;
     });
-    
+
     const showReviews = locationReviews.map((review) => {
         return <Review reviewData={review} key={review.timestamp}></Review>;
     });
@@ -47,9 +47,14 @@ function Review(props) {
                     <p className="reviewText"><em>Review: </em>{reviewObject.text}</p>
                 </div>
                 <div className="row">
-                    <button className="btn like-button" onClick={handleLiked}>
-                        <span className="material-icons" style={{ color: heartColor }}>{heartIcon}</span>
-                    </button>
+                    <div className="col-8">
+
+                    </div>
+                    <div className="col-4">
+                        <button className="btn like-button" onClick={handleLiked}>
+                            <span className="material-icons" style={{ color: heartColor }}>{heartIcon}</span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
