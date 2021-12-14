@@ -4,14 +4,11 @@ import ReviewPane from './ReviewPane';
 import CreateReview from './CreateReview';
 
 function ReviewPage({ location, user, reviewData }) {
-    console.log(location);
     const today = new Date();
     const date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
     
     const [timestamp, setTimestamp] = useState(reviewData[0].timestamp)
     const [reviewArray, setReviewArray] = useState(reviewData);
-
-    console.log(reviewArray);
 
     const addReview = (reviewUser, reviewText, reviewActivity, reviewLocation) => {
         setTimestamp(timestamp + 1);

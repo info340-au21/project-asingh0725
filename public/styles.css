@@ -167,6 +167,10 @@ body {
     margin-left: auto;
 }
 
+.weatherPage {
+    margin-top: calc(4vw + 30px);   
+}
+
 @media (max-width: 480px) {
 
 }

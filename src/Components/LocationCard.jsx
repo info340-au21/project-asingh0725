@@ -22,10 +22,10 @@ export default function LocationCard(props) {
                     <Card.Text>{location.description}</Card.Text>
                     <Row>
                         <Link to="/weather">
-                            <Button className="mt-2 text-center" variant="outline-dark">Weather</Button>
+                            <Button className="mt-2 text-center" onClick={handleReview} variant="outline-dark">Weather</Button>
                         </Link>
                         <Link to="/rental">
-                            <Button className="mt-2 text-center" variant="outline-dark">Rentals</Button>
+                            <Button className="mt-2 text-center" onClick={handleReview} variant="outline-dark">Rentals</Button>
                         </Link>
                         <Link to="/review">
                             <Button className="mt-2 text-center" onClick={handleReview} variant="outline-dark">Reviews</Button>

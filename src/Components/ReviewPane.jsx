@@ -4,7 +4,7 @@ function ReviewPane({ reviewLog, location }) {
     const locationReviews = reviewLog.filter((review) => {
         return review.location === location;
     });
-
+    
     const showReviews = locationReviews.map((review) => {
         return <Review reviewData={review} key={review.timestamp}></Review>;
     });

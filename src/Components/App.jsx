@@ -14,8 +14,8 @@ import Login from './Login';
 
 import { useEffect } from 'react';
 import { getAuth, onAuthStateChanged, signOut } from 'firebase/auth';
-import WeatherPage from './WeatherPage';
 
+import WeatherPage from './WeatherPage';
 import locations from './../data/locations.json';
 import REVIEW_LOG from './../data/review_log.json';
 
@@ -88,7 +88,7 @@ function App() {
             <Rental></Rental>
           </Route>
           <Route path="/weather">
-            <WeatherPage locationValue={locationName}></WeatherPage>
+            <WeatherPage clickedLocation={locationName}></WeatherPage>
           </Route>
           <Route path="/login">
             <Login user={currentUser}></Login>

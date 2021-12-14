@@ -10,10 +10,11 @@ export default function Weather(props) {
         days: [],
         degreeType: "imperial"
     }
+    const location = props.location[0];
+    console.log(location);
     //const location = locations;
     //let fetchApiData = () => {
-      console.log(props.location.lat)
-        const weatherUrl = "api.openweathermap.org/data/2.5/forecast?lat="+props.location.lat+"&lon="+props.location.long+"&units="+state.degreeType+"&appid=0fe2033efdd77a1e5dfb7a392e963afb";
+        const weatherUrl = "api.openweathermap.org/data/2.5/forecast?lat="+location.lat+"&lon="+location.long+"&units="+state.degreeType+"&appid=0fe2033efdd77a1e5dfb7a392e963afb";
         fetch(weatherUrl)
             .then(response => response.json())
             .then(data => {
@@ -33,7 +34,7 @@ export default function Weather(props) {
     }
 
     let sendNewData = () => {
-        const weatherUrl = "api.openweathermap.org/data/2.5/forecast?lat="+props.location.lat+"&lon="+props.location.lon+"&units="+state.degreeType+"&appid=0fe2033efdd77a1e5dfb7a392e963afb";
+        const weatherUrl = "api.openweathermap.org/data/2.5/forecast?lat="+location.lat+"&lon="+location.long+"&units="+state.degreeType+"&appid=0fe2033efdd77a1e5dfb7a392e963afb";
         fetch(weatherUrl)
             .then(response => response.json())
             .then(data => {
@@ -47,7 +48,7 @@ export default function Weather(props) {
         <div className="container">
             <h1 className="display-1 jumbotron">5-Day Forecast.</h1>
             <DegreeType degreeType={degreeType} updateCorF={updateCorF}/>
-            <h5 className="display-5 text-muted">{props.location.name}</h5>
+            <h5 className="display-5 text-muted">{location.name}</h5>
             <div className="row justify-content-center">
                   {cardFormat()}
             </div>
