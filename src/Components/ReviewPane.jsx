@@ -1,10 +1,5 @@
 import React, { useState } from 'react';
 
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
-import Container from 'react-bootstrap/Container';
-
-
 function ReviewPane({ reviewLog, location }) {
     const locationReviews = reviewLog.filter((review) => {
         return review.location === location;

@@ -3,23 +3,28 @@ import React, { useState } from 'react';
 import ReviewPane from './ReviewPane';
 import CreateReview from './CreateReview';
 
-import REVIEW_LOG from './../data/review_log.json';
-
-function ReviewPage({ location, user }) {
+function ReviewPage({ location, user, reviewData }) {
+    console.log(location);
     const today = new Date();
     const date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+    
+    const [timestamp, setTimestamp] = useState(reviewData[0].timestamp)
+    const [reviewArray, setReviewArray] = useState(reviewData);
 
-    const [reviewArray, setReviewArray] = useState(REVIEW_LOG);
+    console.log(reviewArray);
+
     const addReview = (reviewUser, reviewText, reviewActivity, reviewLocation) => {
+        setTimestamp(timestamp + 1);
         const newReview = {
             "userId": reviewUser,
-            "userName": user.displayName,
+            "userName": reviewUser,
             "text": reviewText,
             "activity": reviewActivity,
             "location": reviewLocation,
-            "date": date
+            "date": date,
+            "timestamp": timestamp
         }
-        const newReviewArray = [...reviewArray, newReview];
+        const newReviewArray = [newReview, ...reviewArray];
         setReviewArray(newReviewArray);
     }
     return(

@@ -168,25 +168,17 @@ body {
 }
 
 @media (max-width: 480px) {
-    .loginContainer {
-        width: calc(40vw + 30px);
-    }
+
 }
 
 @media (max-width: 768px) {
-    .loginContainer {
-        width: calc(40vw + 30px);
-    }
+
 }
 
 @media (max-width: 1024px) {
-    .loginContainer {
-        width: calc(40vw + 30px);
-    }
+
 }
 
 @media (min-width: 1024px) and (max-width: 1200px) {
-    .loginContainer {
-        width: calc(40vw + 30px);
-    }
+
 }

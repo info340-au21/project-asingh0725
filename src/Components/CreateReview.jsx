@@ -14,7 +14,7 @@ function CreateReview(props) {
     }
 
     const handleSubmit = (event) => {
-        props.submitButton(props.user, textValue, activityValue, props.location);
+        props.submitButton(props.user.displayName, textValue, activityValue, props.location);
         setTextValue('');
         setActivityValue('');
     }

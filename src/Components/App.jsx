@@ -12,13 +12,16 @@ import ReviewPage from './ReviewPage';
 import Rental from './Rental';
 import Login from './Login';
 
-import locations from './../data/locations.json';
 import { useEffect } from 'react';
 import { getAuth, onAuthStateChanged, signOut } from 'firebase/auth';
 import WeatherPage from './WeatherPage';
 
+import locations from './../data/locations.json';
+import REVIEW_LOG from './../data/review_log.json';
+
 function App() {
   const [currentUser, setCurrentUser] = useState(null);
+  const [locationName, setLocationName] = useState('');
 
   const auth = getAuth();
 
@@ -40,7 +43,6 @@ function App() {
     signOut(getAuth());
   }
 
-  const [locationName, setLocationName] = useState('');
   const getLocationName = (locationName) => {
     setLocationName(locationName)
   }
@@ -80,7 +82,7 @@ function App() {
             <Locations getLocation={getLocationName} locations={locations}></Locations>
           </Route>
           <Route path="/review">
-            <ReviewPage location={locationName} user={currentUser}></ReviewPage>
+            <ReviewPage location={locationName} user={currentUser} reviewData={REVIEW_LOG}></ReviewPage>
           </Route>
           <Route path="/rental">
             <Rental></Rental>
