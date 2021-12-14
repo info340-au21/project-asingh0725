@@ -13,11 +13,10 @@ function RentalTable({ data }) {
             setSortByCriteria(button);
         } else {
             if (isAscending) {
-                setIsAscending(false);
+                setIsAscending(!isAscending);
             }
             if (!isAscending) {
-                setIsAscending(null);
-                setSortByCriteria(null);
+                setIsAscending(!isAscending);
             }
         }
     };
@@ -61,13 +60,9 @@ function RentalTable({ data }) {
 }
 
 function SortButton(props) {
-    let iconClasses = ""
-    if (props.active) { iconClasses += 'active' }
-    if (props.ascending) { iconClasses += 'flip' };
-
     return (
         <button className="btn btn-sm btn-sort" name={props.name} onClick={props.onClick}>
-            <span className={"material-icons" + iconClasses} aria-label={`sort by ${props.name}`}>sort</span>
+            <span className={"material-icons"} aria-label={`sort by ${props.name}`}>sort</span>
         </button>
     );
 }
