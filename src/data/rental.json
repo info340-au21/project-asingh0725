@@ -4,127 +4,135 @@
         "location": "Crystal Mountain",
         "activity": "Snowboard",
         "equipment": "Skis, Boots, Poles",
-        "price": "$$$$$",
-        "website": "https://www.dickssportinggoods.com/?camp=SEM:DSG_43700040949457403_brand_kwd-295840868379&segment=&gclid=CjwKCAiA-9uNBhBTEiwAN3IlNLt_dqUIOAXi9URAIWom10ENbP_jyhwyPGomlriwrVhQi6kVS40CPBoCLlUQAvD_BwE&gclsrc=aw.ds"
+        "price": 150,
+        "website": "https://www.dickssportinggoods.com/p/black-diamond-glidelite-127-cmtrek-skis-20bdiugldlt127trkssp/20bdiugldlt127trkssp"
     },
     {
         "store": "Dick's Sporting Goods",
         "location": "Crystal Mountain",
         "activity": "Snowshoe",
-        "equipment": "Skis, Boots, Poles",
-        "price": "$",
-        "website": "https://www.dickssportinggoods.com/?camp=SEM:DSG_43700040949457403_brand_kwd-295840868379&segment=&gclid=CjwKCAiA-9uNBhBTEiwAN3IlNLt_dqUIOAXi9URAIWom10ENbP_jyhwyPGomlriwrVhQi6kVS40CPBoCLlUQAvD_BwE&gclsrc=aw.ds"
+        "equipment": "Snowshoe, Boots, Poles",
+        "price": 170,
+        "website": "https://www.dickssportinggoods.com/p/yukon-charlies-adult-sherpa-snowshoe-kit-18ychayknshrpsnwsssp/18ychayknshrpsnwsssp"
     },
     {
-        "store": "Dick's Sporting Goods",
+        "store": "Walmart",
         "location": "Crystal Mountain",
         "activity": "Snowshoe",
         "equipment": "Skis, Boots, Poles",
-        "price": "$$",
-        "website": "https://www.dickssportinggoods.com/?camp=SEM:DSG_43700040949457403_brand_kwd-295840868379&segment=&gclid=CjwKCAiA-9uNBhBTEiwAN3IlNLt_dqUIOAXi9URAIWom10ENbP_jyhwyPGomlriwrVhQi6kVS40CPBoCLlUQAvD_BwE&gclsrc=aw.ds"
+        "price": 180,
+        "website": "https://www.walmart.com/ip/Snowshoes-and-Winter-walker-Snowshoe-25-Hiking-Trekking-Poles-Lightweight-Backpacking-Aluminum-with-Carrying-Tote-Bag-for-Men-Women/859260174"
     },
     {
-        "store": "Dick's Sporting Goods",
+        "store": "Amazon",
         "location": "Crystal Mountain",
         "activity": "Snowboard",
         "equipment": "Skis, Boots, Poles",
-        "price": "$$$$",
-        "website": "https://www.dickssportinggoods.com/?camp=SEM:DSG_43700040949457403_brand_kwd-295840868379&segment=&gclid=CjwKCAiA-9uNBhBTEiwAN3IlNLt_dqUIOAXi9URAIWom10ENbP_jyhwyPGomlriwrVhQi6kVS40CPBoCLlUQAvD_BwE&gclsrc=aw.ds"
+        "price": 145,
+        "website": "https://www.amazon.com/Symbolic-140-167cm-Snowboard-Bindings-Package/dp/B07Z2W4B2D/ref=sr_1_1_sspa?keywords=snowboard&qid=1639466017&sr=8-1-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFQSVg0NzJNUTZWWDYmZW5jcnlwdGVkSWQ9QTA3MzA4OTdORjAxUk1ZS09ST1UmZW5jcnlwdGVkQWRJZD1BMDAyOTQ1OVVMQThTS0NLQVNJNiZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU&th=1&psc=1"
     },
     {
         "store": "Dick's Sporting Goods",
         "location": "Crystal Mountain",
         "activity": "Ski",
         "equipment": "Skis, Boots, Poles",
-        "price": "$$$",
+        "price": 192,
         "website": "https://www.dickssportinggoods.com/?camp=SEM:DSG_43700040949457403_brand_kwd-295840868379&segment=&gclid=CjwKCAiA-9uNBhBTEiwAN3IlNLt_dqUIOAXi9URAIWom10ENbP_jyhwyPGomlriwrVhQi6kVS40CPBoCLlUQAvD_BwE&gclsrc=aw.ds"
     },
     {
-        "store": "Dick's Sporting Goods",
+        "store": "Amazon",
         "location": "Crystal Mountain",
         "activity": "Ski",
         "equipment": "Skis, Boots, Poles",
-        "price": "$$$$",
-        "website": "https://www.dickssportinggoods.com/?camp=SEM:DSG_43700040949457403_brand_kwd-295840868379&segment=&gclid=CjwKCAiA-9uNBhBTEiwAN3IlNLt_dqUIOAXi9URAIWom10ENbP_jyhwyPGomlriwrVhQi6kVS40CPBoCLlUQAvD_BwE&gclsrc=aw.ds"
+        "price": 200,
+        "website": "https://www.amazon.com/Symbolic-140-167cm-Snowboard-Bindings-Package/dp/B07Z2W4B2D/ref=sr_1_1_sspa?keywords=snowboard&qid=1639466017&sr=8-1-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFQSVg0NzJNUTZWWDYmZW5jcnlwdGVkSWQ9QTA3MzA4OTdORjAxUk1ZS09ST1UmZW5jcnlwdGVkQWRJZD1BMDAyOTQ1OVVMQThTS0NLQVNJNiZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU&th=1&psc=1"
     },
     {
-        "store": "Dick's Sporting Goods",
+        "store": "Amazon",
         "location": "Crystal Mountain",
         "activity": "Snowshoe",
         "equipment": "Skis, Boots, Poles",
-        "price": "$$$",
-        "website": "https://www.dickssportinggoods.com/?camp=SEM:DSG_43700040949457403_brand_kwd-295840868379&segment=&gclid=CjwKCAiA-9uNBhBTEiwAN3IlNLt_dqUIOAXi9URAIWom10ENbP_jyhwyPGomlriwrVhQi6kVS40CPBoCLlUQAvD_BwE&gclsrc=aw.ds"
+        "price": 125,
+        "website": "https://www.amazon.com/Symbolic-140-167cm-Snowboard-Bindings-Package/dp/B07Z2W4B2D/ref=sr_1_1_sspa?keywords=snowboard&qid=1639466017&sr=8-1-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFQSVg0NzJNUTZWWDYmZW5jcnlwdGVkSWQ9QTA3MzA4OTdORjAxUk1ZS09ST1UmZW5jcnlwdGVkQWRJZD1BMDAyOTQ1OVVMQThTS0NLQVNJNiZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU&th=1&psc=1"
     },
     {
-        "store": "Dick's Sporting Goods",
+        "store": "Walmart",
         "location": "Crystal Mountain",
         "activity": "Ski",
         "equipment": "Skis, Boots, Poles",
-        "price": "$$$$",
-        "website": "https://www.dickssportinggoods.com/?camp=SEM:DSG_43700040949457403_brand_kwd-295840868379&segment=&gclid=CjwKCAiA-9uNBhBTEiwAN3IlNLt_dqUIOAXi9URAIWom10ENbP_jyhwyPGomlriwrVhQi6kVS40CPBoCLlUQAvD_BwE&gclsrc=aw.ds"
+        "price": 155,
+        "website": "https://www.walmart.com/ip/Snowshoes-and-Winter-walker-Snowshoe-25-Hiking-Trekking-Poles-Lightweight-Backpacking-Aluminum-with-Carrying-Tote-Bag-for-Men-Women/859260174"
     },
     {
-        "store": "Dick's Sporting Goods",
+        "store": "Amazon",
         "location": "Crystal Mountain",
-        "activity": "Ski",
+        "activity": "Snowshoe",
         "equipment": "Skis, Boots, Poles",
-        "price": "$$$",
-        "website": "https://www.dickssportinggoods.com/?camp=SEM:DSG_43700040949457403_brand_kwd-295840868379&segment=&gclid=CjwKCAiA-9uNBhBTEiwAN3IlNLt_dqUIOAXi9URAIWom10ENbP_jyhwyPGomlriwrVhQi6kVS40CPBoCLlUQAvD_BwE&gclsrc=aw.ds"
+        "price": 185,
+        "website": "https://www.amazon.com/Symbolic-140-167cm-Snowboard-Bindings-Package/dp/B07Z2W4B2D/ref=sr_1_1_sspa?keywords=snowboard&qid=1639466017&sr=8-1-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFQSVg0NzJNUTZWWDYmZW5jcnlwdGVkSWQ9QTA3MzA4OTdORjAxUk1ZS09ST1UmZW5jcnlwdGVkQWRJZD1BMDAyOTQ1OVVMQThTS0NLQVNJNiZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU&th=1&psc=1"
     },
     {
-        "store": "Dick's Sporting Goods",
-        "location": "Crystal Mountain",
-        "activity": "Ski",
-        "equipment": "Skis, Boots, Poles",
-        "price": "$$",
-        "website": "https://www.dickssportinggoods.com/?camp=SEM:DSG_43700040949457403_brand_kwd-295840868379&segment=&gclid=CjwKCAiA-9uNBhBTEiwAN3IlNLt_dqUIOAXi9URAIWom10ENbP_jyhwyPGomlriwrVhQi6kVS40CPBoCLlUQAvD_BwE&gclsrc=aw.ds"
-    },
-    {
-        "store": "Dick's Sporting Goods",
-        "location": "Crystal Mountain",
-        "activity": "Ski",
-        "equipment": "Skis, Boots, Poles",
-        "price": "$$$",
-        "website": "https://www.dickssportinggoods.com/?camp=SEM:DSG_43700040949457403_brand_kwd-295840868379&segment=&gclid=CjwKCAiA-9uNBhBTEiwAN3IlNLt_dqUIOAXi9URAIWom10ENbP_jyhwyPGomlriwrVhQi6kVS40CPBoCLlUQAvD_BwE&gclsrc=aw.ds"
-    },
-    {
-        "store": "Dick's Sporting Goods",
-        "location": "Crystal Mountain",
-        "activity": "Ski",
-        "equipment": "Skis, Boots, Poles",
-        "price": "$",
-        "website": "https://www.dickssportinggoods.com/?camp=SEM:DSG_43700040949457403_brand_kwd-295840868379&segment=&gclid=CjwKCAiA-9uNBhBTEiwAN3IlNLt_dqUIOAXi9URAIWom10ENbP_jyhwyPGomlriwrVhQi6kVS40CPBoCLlUQAvD_BwE&gclsrc=aw.ds"
-    },
-    {
-        "store": "Dick's Sporting Goods",
-        "location": "Crystal Mountain",
-        "activity": "Ski",
-        "equipment": "Skis, Boots, Poles",
-        "price": "$$",
-        "website": "https://www.dickssportinggoods.com/?camp=SEM:DSG_43700040949457403_brand_kwd-295840868379&segment=&gclid=CjwKCAiA-9uNBhBTEiwAN3IlNLt_dqUIOAXi9URAIWom10ENbP_jyhwyPGomlriwrVhQi6kVS40CPBoCLlUQAvD_BwE&gclsrc=aw.ds"
-    },
-    {
-        "store": "Dick's Sporting Goods",
+        "store": "Walmart",
         "location": "Crystal Mountain",
         "activity": "Snowboard",
         "equipment": "Skis, Boots, Poles",
-        "price": "$$$",
-        "website": "https://www.dickssportinggoods.com/?camp=SEM:DSG_43700040949457403_brand_kwd-295840868379&segment=&gclid=CjwKCAiA-9uNBhBTEiwAN3IlNLt_dqUIOAXi9URAIWom10ENbP_jyhwyPGomlriwrVhQi6kVS40CPBoCLlUQAvD_BwE&gclsrc=aw.ds"
+        "price": 135,
+        "website": "https://www.walmart.com/ip/Snowshoes-and-Winter-walker-Snowshoe-25-Hiking-Trekking-Poles-Lightweight-Backpacking-Aluminum-with-Carrying-Tote-Bag-for-Men-Women/859260174"
     },
     {
         "store": "Dick's Sporting Goods",
+        "location": "Crystal Mountain",
+        "activity": "Ski",
+        "equipment": "Skis, Boots, Poles",
+        "price": 199,
+        "website": "https://www.dickssportinggoods.com/?camp=SEM:DSG_43700040949457403_brand_kwd-295840868379&segment=&gclid=CjwKCAiA-9uNBhBTEiwAN3IlNLt_dqUIOAXi9URAIWom10ENbP_jyhwyPGomlriwrVhQi6kVS40CPBoCLlUQAvD_BwE&gclsrc=aw.ds"
+    },
+    {
+        "store": "Amazon",
+        "location": "Crystal Mountain",
+        "activity": "Ski",
+        "equipment": "Skis, Boots, Poles",
+        "price": 182,
+        "website": "https://www.amazon.com/Symbolic-140-167cm-Snowboard-Bindings-Package/dp/B07Z2W4B2D/ref=sr_1_1_sspa?keywords=snowboard&qid=1639466017&sr=8-1-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFQSVg0NzJNUTZWWDYmZW5jcnlwdGVkSWQ9QTA3MzA4OTdORjAxUk1ZS09ST1UmZW5jcnlwdGVkQWRJZD1BMDAyOTQ1OVVMQThTS0NLQVNJNiZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU&th=1&psc=1"
+    },
+    {
+        "store": "Skis.com",
         "location": "Crystal Mountain",
         "activity": "Snowboard",
         "equipment": "Skis, Boots, Poles",
-        "price": "$$$",
-        "website": "https://www.dickssportinggoods.com/?camp=SEM:DSG_43700040949457403_brand_kwd-295840868379&segment=&gclid=CjwKCAiA-9uNBhBTEiwAN3IlNLt_dqUIOAXi9URAIWom10ENbP_jyhwyPGomlriwrVhQi6kVS40CPBoCLlUQAvD_BwE&gclsrc=aw.ds"
+        "price": "176",
+        "website": "https://www.skis.com/5th-Element-Glory-Composite-Ski-Poles-2020/564968P,default,pd.html"
     },
     {
-        "store": "Dick's Sporting Goods",
+        "store": "Walmart",
+        "location": "Crystal Mountain",
+        "activity": "Snowboard",
+        "equipment": "Skis, Boots, Poles",
+        "price": "160",
+        "website": "https://www.walmart.com/ip/Snowshoes-and-Winter-walker-Snowshoe-25-Hiking-Trekking-Poles-Lightweight-Backpacking-Aluminum-with-Carrying-Tote-Bag-for-Men-Women/859260174"
+    },
+    {
+        "store": "Skis.com",
+        "location": "Crystal Mountain",
+        "activity": "Snowboard",
+        "equipment": "Skis, Boots, Poles",
+        "price": "155",
+        "website": "https://www.skis.com/5th-Element-Glory-Composite-Ski-Poles-2020/564968P,default,pd.html"
+    },
+    {
+        "store": "Skis.com",
         "location": "Crystal Mountain",
         "activity": "Snowshoe",
         "equipment": "Skis, Boots, Poles",
-        "price": "$$$",
+        "price": "146",
+        "website": "https://www.skis.com/5th-Element-Glory-Composite-Ski-Poles-2020/564968P,default,pd.html"
+    },
+    {
+        "store": "Dick's Sporting Goods",
+        "location": "Crystal Mountain",
+        "activity": "Ski",
+        "equipment": "Skis, Boots, Poles",
+        "price": "149",
         "website": "https://www.dickssportinggoods.com/?camp=SEM:DSG_43700040949457403_brand_kwd-295840868379&segment=&gclid=CjwKCAiA-9uNBhBTEiwAN3IlNLt_dqUIOAXi9URAIWom10ENbP_jyhwyPGomlriwrVhQi6kVS40CPBoCLlUQAvD_BwE&gclsrc=aw.ds"
     },
     {
@@ -132,39 +140,7 @@
         "location": "Crystal Mountain",
         "activity": "Ski",
         "equipment": "Skis, Boots, Poles",
-        "price": "$$$",
-        "website": "https://www.dickssportinggoods.com/?camp=SEM:DSG_43700040949457403_brand_kwd-295840868379&segment=&gclid=CjwKCAiA-9uNBhBTEiwAN3IlNLt_dqUIOAXi9URAIWom10ENbP_jyhwyPGomlriwrVhQi6kVS40CPBoCLlUQAvD_BwE&gclsrc=aw.ds"
-    },
-    {
-        "store": "Dick's Sporting Goods",
-        "location": "Crystal Mountain",
-        "activity": "Ski",
-        "equipment": "Skis, Boots, Poles",
-        "price": "$$$",
-        "website": "https://www.dickssportinggoods.com/?camp=SEM:DSG_43700040949457403_brand_kwd-295840868379&segment=&gclid=CjwKCAiA-9uNBhBTEiwAN3IlNLt_dqUIOAXi9URAIWom10ENbP_jyhwyPGomlriwrVhQi6kVS40CPBoCLlUQAvD_BwE&gclsrc=aw.ds"
-    },
-    {
-        "store": "Dick's Sporting Goods",
-        "location": "Crystal Mountain",
-        "activity": "Ski",
-        "equipment": "Skis, Boots, Poles",
-        "price": "$$$",
-        "website": "https://www.dickssportinggoods.com/?camp=SEM:DSG_43700040949457403_brand_kwd-295840868379&segment=&gclid=CjwKCAiA-9uNBhBTEiwAN3IlNLt_dqUIOAXi9URAIWom10ENbP_jyhwyPGomlriwrVhQi6kVS40CPBoCLlUQAvD_BwE&gclsrc=aw.ds"
-    },
-    {
-        "store": "Dick's Sporting Goods",
-        "location": "Crystal Mountain",
-        "activity": "Snowshoe",
-        "equipment": "Skis, Boots, Poles",
-        "price": "$$$",
-        "website": "https://www.dickssportinggoods.com/?camp=SEM:DSG_43700040949457403_brand_kwd-295840868379&segment=&gclid=CjwKCAiA-9uNBhBTEiwAN3IlNLt_dqUIOAXi9URAIWom10ENbP_jyhwyPGomlriwrVhQi6kVS40CPBoCLlUQAvD_BwE&gclsrc=aw.ds"
-    },
-    {
-        "store": "Dick's Sporting Goods",
-        "location": "Crystal Mountain",
-        "activity": "Ski",
-        "equipment": "Skis, Boots, Poles",
-        "price": "$$$",
+        "price": "191",
         "website": "https://www.dickssportinggoods.com/?camp=SEM:DSG_43700040949457403_brand_kwd-295840868379&segment=&gclid=CjwKCAiA-9uNBhBTEiwAN3IlNLt_dqUIOAXi9URAIWom10ENbP_jyhwyPGomlriwrVhQi6kVS40CPBoCLlUQAvD_BwE&gclsrc=aw.ds"
     }
 ]
