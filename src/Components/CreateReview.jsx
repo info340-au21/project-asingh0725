@@ -14,9 +14,13 @@ function CreateReview(props) {
     }
 
     const handleSubmit = (event) => {
-        props.submitButton(props.user.displayName, textValue, activityValue, props.location);
-        setTextValue('');
-        setActivityValue('');
+        if(textValue === '' || activityValue === '') {
+            alert("Please enter your review! ")
+        } else {
+            props.submitButton(props.user.displayName, textValue, activityValue, props.location);
+            setTextValue('');
+            setActivityValue('');
+        }
     }
 
   return (

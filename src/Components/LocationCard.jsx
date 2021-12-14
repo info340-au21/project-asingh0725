@@ -9,6 +9,8 @@ export default function LocationCard(props) {
     const location = props.location;
     const handleReview = (event) => {
         props.reviewButton(location.name);
+        const locationStorage = window.sessionStorage;
+        locationStorage.setItem('location', location.name);
     }
     return (
         <div>

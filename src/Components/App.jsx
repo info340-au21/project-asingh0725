@@ -46,6 +46,7 @@ function App() {
   const getLocationName = (locationName) => {
     setLocationName(locationName)
   }
+
   return (
     <BrowserRouter basename="/mountainstop">
       <div>
@@ -63,7 +64,7 @@ function App() {
                 <NavLink to="/locations" className="subLink">Locations</NavLink>
                 {currentUser && <>
                   {/* <NavLink to="/login" className="subLink">{currentUser.displayName}</NavLink> */}
-                  <button className="btn btn-secondary ms-2" onClick={handleSignOut}>Sign Out {currentUser.displayName}</button>
+                  <button className="btn btn-secondary ms-2 subLink" onClick={handleSignOut}>Sign Out {currentUser.displayName}</button>
                 </>}
                 {!currentUser &&
                   <NavLink to="/login" className="subLink">Login</NavLink>

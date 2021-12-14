@@ -9,6 +9,10 @@ function ReviewPage({ location, user, reviewData }) {
     
     const [timestamp, setTimestamp] = useState(reviewData[0].timestamp)
     const [reviewArray, setReviewArray] = useState(reviewData);
+    
+    // get location name every refresh
+    const locationStorage = window.sessionStorage;
+    let savedLocation = locationStorage.getItem('location');
 
     const addReview = (reviewUser, reviewText, reviewActivity, reviewLocation) => {
         setTimestamp(timestamp + 1);
@@ -26,9 +30,9 @@ function ReviewPage({ location, user, reviewData }) {
     }
     return(
         <div className="reviewPage">
-            <h2 className="ml-5">Reviews for {location}</h2>
-            <CreateReview className="ml-5" submitButton={addReview} location={location} user={user}></CreateReview>
-            <ReviewPane className="ml-5" reviewLog={reviewArray} location={location}></ReviewPane>
+            <h2 className="ml-5">Reviews for {savedLocation}</h2>
+            <CreateReview className="ml-5" submitButton={addReview} location={savedLocation} user={user}></CreateReview>
+            <ReviewPane className="ml-5" reviewLog={reviewArray} location={savedLocation}></ReviewPane>
         </div>
    );
 }
