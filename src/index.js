@@ -4,19 +4,21 @@ import App from './Components/App.jsx';
 
 import 'bootstrap/dist/css/bootstrap.css';
 
+// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBcUQQcMQjpYDRYPKZm3yRUQje5gVl7O4w",
-  authDomain: "info340-ab1-mountainstop.firebaseapp.com",
-  projectId: "info340-ab1-mountainstop",
-  storageBucket: "info340-ab1-mountainstop.appspot.com",
-  messagingSenderId: "510942775974",
-  appId: "1:510942775974:web:40474cd163fe3c87eec267",
-  measurementId: "G-Y784N1EC7M"
+  apiKey: "AIzaSyB-77yk0D7Xm8aRvVIoMBfnITmMiFU3os4",
+  authDomain: "mountainstop-6cc61.firebaseapp.com",
+  projectId: "mountainstop-6cc61",
+  storageBucket: "mountainstop-6cc61.appspot.com",
+  messagingSenderId: "998570659454",
+  appId: "1:998570659454:web:87580d193d462d2082122f",
+  measurementId: "G-44QG2HVB5H"
 };
 
 initializeApp(firebaseConfig);
+
 
 ReactDOM.render(
   <div>
