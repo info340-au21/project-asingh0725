@@ -3,11 +3,11 @@ import WeatherCard from './WeatherCard.jsx'
 import DegreeType from './DegreeType.jsx'
 import locations from '../data/locations.json';
 
-class Weather extends React.Component {
+class WeatherWhite extends React.Component {
   state = {
     days: [],
-    name: "Crystal Mountain",
-    location: "zip=98022",
+    name: "White Pass",
+    location: "zip=98937",
     country: "us",
     degreeType: "imperial"
   }
@@ -23,7 +23,7 @@ class Weather extends React.Component {
   }
 
   formatCards = () => {
-    return this.state.days.map((day, index) => <WeatherCard day={day} key={index}/>)
+    return this.state.days.map((day, index) => <WeatherCard day={day} key={index} degreeType={this.state.degreeType}/>)
   }
 
   updateForecastDegree = newDegreeType => {
@@ -62,4 +62,4 @@ class Weather extends React.Component {
   }
 }
 
-export default Weather;
+export default WeatherWhite;
