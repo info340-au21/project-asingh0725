@@ -14,7 +14,7 @@ export default function LocationCard(props) {
     }
     return (
         <div>
-            <Card border="light" className="locationCard d-flex mx-auto my-auto text-center" style={{ width: '22rem' }}>
+            <Card border="secondary" className="locationCard d-flex mx-auto my-auto text-center" style={{ width: '22rem' }}>
                 <Card.Header variant="top">
                     <Card.Img className="locationImg mt-2 mb-2" variant="top" src={location.img} alt={location.caption} />
                 </Card.Header>

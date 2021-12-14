@@ -20,7 +20,7 @@ export default function Location({ getLocation }) {
 
     return(
         <div className="locations">
-            <h2>Locations</h2>
+            <h2 className="ml-5">Locations in Washington</h2>
             <Container>
                 <Row className="locationsRow d-flex my-auto">
                     {location}

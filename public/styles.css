@@ -121,6 +121,18 @@ body {
     max-width: 1000px;
 }
 
+.locations {
+    margin-top: calc(4vw + 30px);
+}
+
+.rentalPage {
+    margin-top: calc(4vw + 30px);
+}
+
+.rentalTable {
+    width: 100%;
+}
+
 .reviewPage {
     margin-top: calc(4vw + 30px);
 }

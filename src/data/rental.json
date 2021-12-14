@@ -2,56 +2,62 @@
     {
         "store": "Dick's Sporting Goods",
         "location": "Crystal Mountain",
-        "sports": "Ski",
+        "activity": "Ski",
         "equipment": "Skis, Boots, Poles",
         "price": "$$$",
         "website": "https://www.dickssportinggoods.com/?camp=SEM:DSG_43700040949457403_brand_kwd-295840868379&segment=&gclid=CjwKCAiA-9uNBhBTEiwAN3IlNLt_dqUIOAXi9URAIWom10ENbP_jyhwyPGomlriwrVhQi6kVS40CPBoCLlUQAvD_BwE&gclsrc=aw.ds",
-        "img": "/../"
+        "img": "/../",
+        "alt": ""
+    },
+    {
+        "store": "Fick's Sporting Goods",
+        "location": "Crystal Mountain",
+        "activity": "Ski",
+        "equipment": "Skis, Boots, Poles",
+        "price": "$$",
+        "website": "https://www.dickssportinggoods.com/?camp=SEM:DSG_43700040949457403_brand_kwd-295840868379&segment=&gclid=CjwKCAiA-9uNBhBTEiwAN3IlNLt_dqUIOAXi9URAIWom10ENbP_jyhwyPGomlriwrVhQi6kVS40CPBoCLlUQAvD_BwE&gclsrc=aw.ds",
+        "img": "/../",
+        "alt": ""
+    },
+    {
+        "store": "Rick's Sporting Goods",
+        "location": "Crystal Mountain",
+        "activity": "Ski",
+        "equipment": "Skis, Boots, Poles",
+        "price": "$$",
+        "website": "https://www.dickssportinggoods.com/?camp=SEM:DSG_43700040949457403_brand_kwd-295840868379&segment=&gclid=CjwKCAiA-9uNBhBTEiwAN3IlNLt_dqUIOAXi9URAIWom10ENbP_jyhwyPGomlriwrVhQi6kVS40CPBoCLlUQAvD_BwE&gclsrc=aw.ds",
+        "img": "/../",
+        "alt": ""
+    },
+    {
+        "store": "Sick's Sporting Goods",
+        "location": "Crystal Mountain",
+        "activity": "Ski",
+        "equipment": "Skis, Boots, Poles",
+        "price": "$$",
+        "website": "https://www.dickssportinggoods.com/?camp=SEM:DSG_43700040949457403_brand_kwd-295840868379&segment=&gclid=CjwKCAiA-9uNBhBTEiwAN3IlNLt_dqUIOAXi9URAIWom10ENbP_jyhwyPGomlriwrVhQi6kVS40CPBoCLlUQAvD_BwE&gclsrc=aw.ds",
+        "img": "/../",
+        "alt": ""
     },
     {
         "store": "Dick's Sporting Goods",
         "location": "Crystal Mountain",
-        "sports": "Ski",
+        "activity": "Ski",
         "equipment": "Skis, Boots, Poles",
-        "price": "$$$",
+        "price": "$$",
         "website": "https://www.dickssportinggoods.com/?camp=SEM:DSG_43700040949457403_brand_kwd-295840868379&segment=&gclid=CjwKCAiA-9uNBhBTEiwAN3IlNLt_dqUIOAXi9URAIWom10ENbP_jyhwyPGomlriwrVhQi6kVS40CPBoCLlUQAvD_BwE&gclsrc=aw.ds",
-        "img": "/../"
+        "img": "/../",
+        "alt": ""
     },
     {
         "store": "Dick's Sporting Goods",
         "location": "Crystal Mountain",
-        "sports": "Ski",
+        "activity": "Ski",
         "equipment": "Skis, Boots, Poles",
-        "price": "$$$",
+        "price": "$",
         "website": "https://www.dickssportinggoods.com/?camp=SEM:DSG_43700040949457403_brand_kwd-295840868379&segment=&gclid=CjwKCAiA-9uNBhBTEiwAN3IlNLt_dqUIOAXi9URAIWom10ENbP_jyhwyPGomlriwrVhQi6kVS40CPBoCLlUQAvD_BwE&gclsrc=aw.ds",
-        "img": "/../"
-    },
-    {
-        "store": "Dick's Sporting Goods",
-        "location": "Crystal Mountain",
-        "sports": "Ski",
-        "equipment": "Skis, Boots, Poles",
-        "price": "$$$",
-        "website": "https://www.dickssportinggoods.com/?camp=SEM:DSG_43700040949457403_brand_kwd-295840868379&segment=&gclid=CjwKCAiA-9uNBhBTEiwAN3IlNLt_dqUIOAXi9URAIWom10ENbP_jyhwyPGomlriwrVhQi6kVS40CPBoCLlUQAvD_BwE&gclsrc=aw.ds",
-        "img": "/../"
-    },
-    {
-        "store": "Dick's Sporting Goods",
-        "location": "Crystal Mountain",
-        "sports": "Ski",
-        "equipment": "Skis, Boots, Poles",
-        "price": "$$$",
-        "website": "https://www.dickssportinggoods.com/?camp=SEM:DSG_43700040949457403_brand_kwd-295840868379&segment=&gclid=CjwKCAiA-9uNBhBTEiwAN3IlNLt_dqUIOAXi9URAIWom10ENbP_jyhwyPGomlriwrVhQi6kVS40CPBoCLlUQAvD_BwE&gclsrc=aw.ds",
-        "img": "/../"
-    },
-    {
-        "store": "Dick's Sporting Goods",
-        "location": "Crystal Mountain",
-        "sports": "Ski",
-        "equipment": "Skis, Boots, Poles",
-        "price": "$$$",
-        "website": "https://www.dickssportinggoods.com/?camp=SEM:DSG_43700040949457403_brand_kwd-295840868379&segment=&gclid=CjwKCAiA-9uNBhBTEiwAN3IlNLt_dqUIOAXi9URAIWom10ENbP_jyhwyPGomlriwrVhQi6kVS40CPBoCLlUQAvD_BwE&gclsrc=aw.ds",
-        "img": "/../"
+        "img": "/../",
+        "alt": ""
     }
 
 ]
