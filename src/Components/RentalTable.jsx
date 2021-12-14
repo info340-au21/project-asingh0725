@@ -44,10 +44,10 @@ function RentalTable({ data }) {
                         <th>
                             Price
                             <SortButton
-                                name="Price"
+                                name="price"
                                 onClick={handleClick}
-                                active={(sortByCriteria === "year") ? true : false}
-                                ascending={(sortByCriteria === "year" && isAscending) ? true : false} />
+                                active={(sortByCriteria === "price") ? true : false}
+                                ascending={(sortByCriteria === "price" && isAscending) ? true : false} />
                         </th>
                         <th>Store Website</th>
                     </tr>
@@ -62,8 +62,8 @@ function RentalTable({ data }) {
 
 function SortButton(props) {
     let iconClasses = ""
-    if (props.active) { iconClasses += ` active` }
-    if (props.ascending) { iconClasses += ` flip` };
+    if (props.active) { iconClasses += 'active' }
+    if (props.ascending) { iconClasses += 'flip' };
 
     return (
         <button className="btn btn-sm btn-sort" name={props.name} onClick={props.onClick}>

@@ -69,7 +69,7 @@ function Home() {
                 </Row>
                 <Row className="rows">
                     <Col>
-                        <Button href="/activites" className= "welcomeButton" variant="outline-dark">Check Out the Activites!</Button>
+                        <Button href="/locations" className= "welcomeButton" variant="outline-dark">Check Out the Locations!</Button>
                     </Col>
                 </Row>
             </Container>

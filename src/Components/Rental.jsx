@@ -15,7 +15,7 @@ function Rental(props) {
     const [displayingData, setDisplayingData] = useState(filteredData);
 
     const applyFilter = (activityKey) => {
-        if(activityKey === '') {
+        if(activityKey === 'Show all Activities') {
             setDisplayingData(filteredData);
         } else {
             const newData = filteredData.filter((store) => {
