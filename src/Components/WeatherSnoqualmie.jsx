@@ -13,7 +13,7 @@ class WeatherSnoqualmie extends React.Component {
   }
 
   componentDidMount = () => {
-    const weatherURL = `http://api.openweathermap.org/data/2.5/forecast?${this.state.location},${this.state.country}&units=${this.state.degreeType}&APPID=0fe2033efdd77a1e5dfb7a392e963afb`;
+    const weatherURL = `https://api.openweathermap.org/data/2.5/forecast?${this.state.location},${this.state.country}&units=${this.state.degreeType}&APPID=0fe2033efdd77a1e5dfb7a392e963afb`;
     fetch(weatherURL)
     .then(res => res.json())
     .then(data => {
@@ -33,7 +33,7 @@ class WeatherSnoqualmie extends React.Component {
   }
 
   sendNewFetch = () => {
-    const weatherURL = `http://api.openweathermap.org/data/2.5/forecast?${this.state.location},${this.state.country}&units=${this.state.degreeType}&APPID=0fe2033efdd77a1e5dfb7a392e963afb`
+    const weatherURL = `https://api.openweathermap.org/data/2.5/forecast?${this.state.location},${this.state.country}&units=${this.state.degreeType}&APPID=0fe2033efdd77a1e5dfb7a392e963afb`
     fetch(weatherURL)
     .then(res => res.json())
     .then(data => {

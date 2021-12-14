@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "info340-ab1-mountainstop"
-  }
+    "default": "mountainstop-6cc61",
+    "staging": "mountainstop-6cc61"
+  },
+  "targets": {}
 }

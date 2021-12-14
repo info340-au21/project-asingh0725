@@ -8,7 +8,7 @@ class WeatherCard extends React.Component {
     let newDate = new Date();
     const weekday = this.props.day.dt * 1000
     newDate.setTime(weekday)
-    const img = "http://openweathermap.org/img/w/" + this.props.day.weather[0].icon + ".png"
+    const img = "https://openweathermap.org/img/w/" + this.props.day.weather[0].icon + ".png"
 
 
     return (
