@@ -89,7 +89,8 @@ function App() {
             <Rental></Rental>
           </Route>
           <Route path="/weather">
-            <WeatherPage clickedLocation={locationName}></WeatherPage>
+            <WeatherPage></WeatherPage>
+            {/* clickedLocation={locationName} */}
           </Route>
           <Route path="/login">
             <Login user={currentUser}></Login>

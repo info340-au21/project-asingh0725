@@ -1,115 +1,65 @@
-import React, { useState } from "react";
+import React from "react";
 import WeatherCard from './WeatherCard.jsx'
 import DegreeType from './DegreeType.jsx'
-//import locations from '../data/locations.json';
+import locations from '../data/locations.json';
 
-export default function Weather(props) {
-    const [days,setDays] = useState([]);
-    const [degreeType, setDegreeType] = useState("imperial");
-    let state = {
-        days: [],
-        degreeType: "imperial"
-    }
-    const location = props.location[0];
-    console.log(location);
-    //const location = locations;
-    //let fetchApiData = () => {
-        const weatherUrl = "api.openweathermap.org/data/2.5/forecast?lat="+location.lat+"&lon="+location.long+"&units="+state.degreeType+"&appid=0fe2033efdd77a1e5dfb7a392e963afb";
-        fetch(weatherUrl)
-            .then(response => response.json())
-            .then(data => {
-                console.log("Data List succesfully loaded", data.list)
-                const dailyData = data.list.filter(reading => reading.dt_txt.includes("18:00:00"))
-                setDays(dailyData)
-            })
-    //}
+class Weather extends React.Component {
+  state = {
+    days: [],
+    name: "Crystal Mountain",
+    location: "zip=98022",
+    country: "us",
+    degreeType: "imperial"
+  }
 
-    let cardFormat = () => {
-         return days.map((day, index) => <WeatherCard day={day} key={index} />)
-    }
+  componentDidMount = () => {
+    const weatherURL = `http://api.openweathermap.org/data/2.5/forecast?${this.state.location},${this.state.country}&units=${this.state.degreeType}&APPID=0fe2033efdd77a1e5dfb7a392e963afb`;
+    fetch(weatherURL)
+    .then(res => res.json())
+    .then(data => {
+      const dailyData = data.list.filter(reading => reading.dt_txt.includes("18:00:00"))
+      this.setState({days: dailyData})
+    })
+  }
 
-    let updateCorF = (degreeType) => {
-        setDegreeType(degreeType);
-        sendNewData()
-    }
+  formatCards = () => {
+    return this.state.days.map((day, index) => <WeatherCard day={day} key={index}/>)
+  }
 
-    let sendNewData = () => {
-        const weatherUrl = "api.openweathermap.org/data/2.5/forecast?lat="+location.lat+"&lon="+location.long+"&units="+state.degreeType+"&appid=0fe2033efdd77a1e5dfb7a392e963afb";
-        fetch(weatherUrl)
-            .then(response => response.json())
-            .then(data => {
-                console.log("Data List succesfully loaded", data.list)
-                const dailyData = data.list.filter(reading => reading.dt_txt.includes("18:00:00"))
-                setDays(dailyData);
-            })
-    }
+  updateForecastDegree = newDegreeType => {
+    this.setState({
+      degreeType: newDegreeType
+    }, this.sendNewFetch)
+  }
 
+  sendNewFetch = () => {
+    const weatherURL = `http://api.openweathermap.org/data/2.5/forecast?${this.state.location},${this.state.country}&units=${this.state.degreeType}&APPID=0fe2033efdd77a1e5dfb7a392e963afb`
+    fetch(weatherURL)
+    .then(res => res.json())
+    .then(data => {
+      const dailyData = data.list.filter(reading => reading.dt_txt.includes("18:00:00"))
+      this.setState({days: dailyData})
+    })
+  }
+
+  render() {
+    const locationStorage = window.sessionStorage;
+    const savedLocation = locationStorage.getItem('location');
+    const location = locations.filter(loc => loc.name === savedLocation);
+    console.log(location.name)
     return (
-        <div className="container">
-            <h1 className="display-1 jumbotron">5-Day Forecast.</h1>
-            <DegreeType degreeType={degreeType} updateCorF={updateCorF}/>
-            <h5 className="display-5 text-muted">{location.name}</h5>
-            <div className="row justify-content-center">
-                  {cardFormat()}
-            </div>
+      <div className="container">
+      <h1 className="display-1 jumbotron">5-Day Forecast.</h1>
+      <DegreeType degreeType={this.state.degreeType} updateForecastDegree={this.updateForecastDegree}/>
+      <h5 className="display-5 text-muted">{this.state.name}</h5>
+        <div className="row justify-content-center">
+
+          {this.formatCards()}
+
         </div>
-      )
+      </div>
+    )
+  }
 }
 
-
-// class WeekContainer extends React.Component {
-//     state = {
-//       days: [],
-//       degreeType: "imperial"
-//     }
-  
-//     componentDidMount = () => {
-//       const weatherUrlOriginal = "api.openweathermap.org/data/2.5/forecast?lat=" + 46.973010 + "&lon=" + -121.496020 + "&units=" + this.state.degreeType + "&APPID=0fe2033efdd77a1e5dfb7a392e963afb";
-//       //const weatherURL = `http://api.openweathermap.org/data/2.5/forecast?${this.state.location},${this.state.country}&units=${this.state.degreeType}&APPID=0fe2033efdd77a1e5dfb7a392e963afb`
-//       fetch(weatherUrlOriginal)
-//       .then(res => res.json())
-//       .then(data => {
-//         console.log("Data List Loaded", data.list)
-//         const dailyData = data.list.filter(reading => reading.dt_txt.includes("18:00:00"))
-//         this.setState({days: dailyData})
-//       })
-//     }
-  
-//     formatCards = () => {
-//       return this.state.days.map((day, index) => <WeatherCard day={day} key={index}/>)
-//     }
-  
-//     updateForecastDegree = newDegreeType => {
-//       this.setState({
-//         degreeType: newDegreeType
-//       }, this.sendNewFetch)
-//     }
-  
-//     sendNewFetch = () => {
-//       const weatherURL = `http://api.openweathermap.org/data/2.5/forecast?${this.state.location},${this.state.country}&units=${this.state.degreeType}&APPID=0fe2033efdd77a1e5dfb7a392e963afb`
-//       fetch(weatherURL)
-//       .then(res => res.json())
-//       .then(data => {
-//         console.log("Data List Loaded", data.list)
-//         const dailyData = data.list.filter(reading => reading.dt_txt.includes("18:00:00"))
-//         this.setState({days: dailyData})
-//       })
-//     }
-  
-//     render() {
-//       return (
-//         <div className="container">
-//         <h1 className="display-1 jumbotron">5-Day Forecast.</h1>
-//         <DegreeType degreeType={this.state.degreeType} updateForecastDegree={this.updateForecastDegree}/>
-//         <h5 className="display-5 text-muted">New York, US</h5>
-//           <div className="row justify-content-center">
-  
-//             {this.formatCards()}
-  
-//           </div>
-//         </div>
-//       )
-//     }
-//   }
-  
-//   export default WeekContainer
+export default Weather;
