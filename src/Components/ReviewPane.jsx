@@ -47,12 +47,12 @@ function Review(props) {
                     <p className="reviewText"><em>Review: </em>{reviewObject.text}</p>
                 </div>
                 <div className="row">
-                    <div className="col-8">
+                    <div className="col-11">
 
                     </div>
-                    <div className="col-4">
+                    <div className="col-1">
                         <button className="btn like-button" onClick={handleLiked}>
-                            <span className="material-icons" style={{ color: heartColor }}>{heartIcon}</span>
+                            <span className="material-icons" style={{ color: isLiked ? "red" : "grey" }}>{heartIcon}</span>
                         </button>
                     </div>
                 </div>

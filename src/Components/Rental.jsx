@@ -38,7 +38,7 @@ function Rental(props) {
             <div className="col-4">
                 <RentalSelect storeOptions={uniqueStoreOptions} callback={applyFilter}></RentalSelect>
             </div>
-            <div className="col-7 mr-5">
+            <div className="col-11">
                 <RentalTable data={displayingData}></RentalTable>
             </div>
         </div>

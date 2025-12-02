@@ -16,7 +16,7 @@ class WeatherCard extends React.Component {
         <div className="card">
           <h3 className="card-title text-center">{moment(newDate).format('dddd')}</h3>
           <p className="text-muted text-center">{moment(newDate).format('MMMM Do, h:mm a')}</p>
-          <img src={img} alt="the weather conditions" className="img-fluid mw-50"></img> 
+          {/* <img src={img} alt="the weather conditions" className="img-fluid mw-50"></img>  */}
           <h2 className="text-center ">{this.props.degreeType === "metric" ? Math.round(this.props.day.main.temp) + "°C" : Math.round(this.props.day.main.temp) + "°F"}</h2>
           <div className="card-body">
             <p className="card-text text-center text-capitalize font-weight-bold">{this.props.day.weather[0].description}</p>

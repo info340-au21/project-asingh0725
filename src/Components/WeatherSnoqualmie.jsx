@@ -27,20 +27,8 @@ class WeatherSnoqualmie extends React.Component {
   }
 
   updateForecastDegree = newDegreeType => {
-    this.setState({
-      degreeType: newDegreeType
-    }, this.sendNewFetch)
-  }
-
-  sendNewFetch = () => {
-    const weatherURL = `https://api.openweathermap.org/data/2.5/forecast?${this.state.location},${this.state.country}&units=${this.state.degreeType}&APPID=0fe2033efdd77a1e5dfb7a392e963afb`
-    fetch(weatherURL)
-    .then(res => res.json())
-    .then(data => {
-      const dailyData = data.list.filter(reading => reading.dt_txt.includes("18:00:00"))
-      this.setState({days: dailyData})
-    })
-  }
+    this.setState({ degreeType: newDegreeType });
+  };
 
   render() {
     const locationStorage = window.sessionStorage;
@@ -49,9 +37,9 @@ class WeatherSnoqualmie extends React.Component {
     console.log(location.name)
     return (
       <div className="container">
-      <h1 className="display-1 jumbotron">5-Day Forecast.</h1>
+      <h1 className="display-1 text-center">{this.state.name}</h1>
+      <h2 className="display-5 text-muted text-center">5-Day Forecast.</h2>
       <DegreeType degreeType={this.state.degreeType} updateForecastDegree={this.updateForecastDegree}/>
-      <h5 className="display-5 text-muted">{this.state.name}</h5>
         <div className="row justify-content-center">
 
           {this.formatCards()}

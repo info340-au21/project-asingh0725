@@ -1,32 +1,39 @@
 import React from 'react';
 
-const DegreeType = ({degreeType, updateForecastDegree}) => {
+const DegreeType = ({ degreeType, updateForecastDegree }) => {
   return (
-    <React.Fragment>
-      <div class="form-check form-check-inline">
+    <>
+      <div className="form-check">
         <input
-        class="form-check-input"
-        type="radio"
-        name="degree-type"
-        id="celsius"
-        value="metric"
-        checked={degreeType === "metric"}
-        onChange={event => updateForecastDegree(event.target.value)}/>
-        <label class="form-check-label" for="celsius">Celsius</label>
+          className="form-check-input"
+          type="radio"
+          name="degree-type"
+          id="celsius"
+          value="metric"
+          checked={degreeType === "metric"}
+          onChange={event => updateForecastDegree(event.target.value)}
+        />
+        <label className="form-check-label" htmlFor="celsius">
+          Celsius
+        </label>
       </div>
-      <div class="form-check form-check-inline">
+
+      <div className="form-check">
         <input
-        class="form-check-input"
-        type="radio"
-        name="degree-type"
-        id="farenheit"
-        value="imperial"
-        checked={degreeType === "imperial"}
-        onChange={event => updateForecastDegree(event.target.value)}/>
-        <label class="form-check-label" for="farenheit">Farenheit</label>
+          className="form-check-input"
+          type="radio"
+          name="degree-type"
+          id="fahrenheit"
+          value="imperial"
+          checked={degreeType === "imperial"}
+          onChange={event => updateForecastDegree(event.target.value)}
+        />
+        <label className="form-check-label" htmlFor="fahrenheit">
+          Fahrenheit
+        </label>
       </div>
-    </React.Fragment>
-  )
-}
+    </>
+  );
+};
 
 export default DegreeType;
