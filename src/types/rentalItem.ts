@@ -2,7 +2,7 @@ export interface RentalItem {
     store: string;
     activity: string;
     equipment: string;
-    price: number;
+    price: string;
     website: string;
     location: string;
   }

@@ -1,7 +1,7 @@
 import React, { useMemo, useState } from "react";
 import RentalTable from "./RentalTable";
 import RentalSelect from "./RentalSelect";
-import { RentalItem } from "../types";
+import { RentalItem } from "../../types/rentalItem";
 
 interface RentalProps {
   data: RentalItem[];
