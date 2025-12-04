@@ -1,0 +1,22 @@
+[
+    {
+      "name": "Crystal Mountain",
+      "zip": "98022",
+      "country": "us"
+    },
+    {
+      "name": "Snoqualmie Pass",
+      "zip": "98068",
+      "country": "us"
+    },
+    {
+      "name": "White Pass",
+      "zip": "98937",
+      "country": "us"
+    },
+    {
+      "name": "Stevens Pass",
+      "zip": "98826",
+      "country": "us"
+    }
+  ]

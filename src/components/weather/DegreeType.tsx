@@ -1,6 +1,14 @@
-import React from 'react';
+import React from "react";
 
-const DegreeType = ({ degreeType, updateForecastDegree }) => {
+interface DegreeTypeProps {
+  degreeType: "metric" | "imperial";
+  updateForecastDegree: (value: "metric" | "imperial") => void;
+}
+
+const DegreeType: React.FC<DegreeTypeProps> = ({
+  degreeType,
+  updateForecastDegree,
+}) => {
   return (
     <>
       <div className="form-check">
@@ -11,7 +19,9 @@ const DegreeType = ({ degreeType, updateForecastDegree }) => {
           id="celsius"
           value="metric"
           checked={degreeType === "metric"}
-          onChange={event => updateForecastDegree(event.target.value)}
+          onChange={(event) =>
+            updateForecastDegree(event.target.value as "metric")
+          }
         />
         <label className="form-check-label" htmlFor="celsius">
           Celsius
@@ -26,7 +36,9 @@ const DegreeType = ({ degreeType, updateForecastDegree }) => {
           id="fahrenheit"
           value="imperial"
           checked={degreeType === "imperial"}
-          onChange={event => updateForecastDegree(event.target.value)}
+          onChange={(event) =>
+            updateForecastDegree(event.target.value as "imperial")
+          }
         />
         <label className="form-check-label" htmlFor="fahrenheit">
           Fahrenheit
